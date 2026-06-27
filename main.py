@@ -15,6 +15,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+BLOCKED_INTENT = ["drop", "delete", "truncate", "alter", "insert", "update", "remove", "destroy"]
 
 class ChatRequest(BaseModel):
     message: str
@@ -30,6 +31,12 @@ class EnrichRequest(BaseModel):
 
 @app.post("/chat")
 def chat(req: ChatRequest):
+    # Step 1: check user's raw message before LLM ever sees it
+    lower = req.message.lower()
+    for word in BLOCKED_INTENT:
+        if word in lower:
+            raise HTTPException(status_code=400, detail=f"Query intent not allowed: '{word}'")
+
     sql = generate_sql(req.message)
     valid, reason = validate_sql(sql)
     if not valid:
