@@ -261,6 +261,87 @@ html, body { height: 100%; overflow: hidden; background: var(--paper); color: va
 }
 .serif-popup .leaflet-popup-tip { background: white; }
 .serif-popup .leaflet-popup-content { margin: 10px 14px; }
+
+/* ── RAG KNOWLEDGE PANEL ── */
+#rag-panel {
+  position: absolute;
+  top: 16px; right: 16px;
+  width: 300px;
+  z-index: 1000;
+  background: white;
+  border: 1px solid var(--rule2);
+  border-radius: var(--r-lg);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+  font-family: var(--ff-body);
+  overflow: hidden;
+  display: none;
+  animation: panelIn .2s ease;
+}
+@keyframes panelIn {
+  from { opacity: 0; transform: translateY(-8px) scale(.98); }
+  to   { opacity: 1; transform: none; }
+}
+
+#rag-panel-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 14px 10px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper2);
+}
+#rag-place-name {
+  font-size: 13.5px; font-weight: 500; color: var(--ink);
+  line-height: 1.3; flex: 1; min-width: 0;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#rag-category-badge {
+  font-size: 10px; font-family: 'IBM Plex Mono', monospace;
+  background: var(--accent-light); color: var(--accent);
+  border: 1px solid #e8d0c4;
+  padding: 2px 8px; border-radius: 20px;
+  letter-spacing: .04em; margin-left: 8px; white-space: nowrap; flex-shrink: 0;
+}
+#rag-close {
+  background: none; border: none; cursor: pointer;
+  color: var(--ink4); font-size: 16px; line-height: 1;
+  margin-left: 8px; padding: 0 2px; transition: color .15s;
+}
+#rag-close:hover { color: var(--ink); }
+
+#rag-body { padding: 12px 14px; display: flex; flex-direction: column; gap: 10px; }
+
+#rag-summary {
+  font-size: 12.5px; line-height: 1.65; color: var(--ink2);
+}
+
+#rag-highlights { display: flex; flex-direction: column; gap: 5px; }
+.rag-highlight {
+  display: flex; gap: 7px; align-items: flex-start;
+  font-size: 12px; line-height: 1.5; color: var(--ink3);
+}
+.rag-bullet {
+  color: var(--accent); font-weight: 600; flex-shrink: 0;
+  margin-top: 1px;
+}
+
+#rag-source {
+  display: flex; align-items: center; gap: 5px;
+  font-size: 10.5px; font-family: 'IBM Plex Mono', monospace;
+  color: var(--ink4); border-top: 1px solid var(--rule);
+  padding-top: 8px; letter-spacing: .03em;
+}
+#rag-source-icon { width: 12px; height: 12px; }
+
+/* loading skeleton */
+.rag-skeleton {
+  background: linear-gradient(90deg, var(--paper2) 25%, var(--paper3) 50%, var(--paper2) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite;
+  border-radius: 4px; height: 12px;
+}
+@keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+.rag-skeleton.short { width: 60%; }
+.rag-skeleton.medium { width: 85%; }
+.rag-skeleton.tall { height: 40px; }
 </style>
 </head>
 <body>
@@ -293,7 +374,7 @@ html, body { height: 100%; overflow: hidden; background: var(--paper); color: va
     </div>
 
     <div id="input-area">
-      <textarea id="chat-input" rows="1"></textarea>
+      <textarea id="chat-input" rows="1" placeholder="e.g. pharmacies near Tahrir Square…"></textarea>
       <button id="send-btn" onclick="sendQuery()" aria-label="Send">
         <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
       </button>
@@ -303,6 +384,20 @@ html, body { height: 100%; overflow: hidden; background: var(--paper); color: va
   <div id="map-wrap">
     <div id="map"></div>
     <div id="result-badge"></div>
+
+    <!-- RAG Knowledge Panel -->
+    <div id="rag-panel">
+      <div id="rag-panel-header">
+        <span id="rag-place-name">Loading…</span>
+        <span id="rag-category-badge">—</span>
+        <button id="rag-close" onclick="closeRagPanel()" title="Close">✕</button>
+      </div>
+      <div id="rag-body">
+        <div id="rag-summary"></div>
+        <div id="rag-highlights"></div>
+        <div id="rag-source"></div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -315,11 +410,13 @@ const SUGGESTIONS = [
   'Find schools within 500 m of a metro station',
   'Which universities have hospitals nearby?',
   "Which university has the most pharmacies nearby?"
-
 ];
 
 const COLORS = ['#b85c2a','#3a6b4a','#2a6bb8','#7a3a8a','#8a6a2a','#2a8a6a','#8a2a4a'];
 let colorIndex = 0, layerGroups = {}, layers = [], map;
+
+// Track current RAG request to avoid stale results
+let ragRequestId = 0;
 
 window.addEventListener('load', () => {
   map = L.map('map', { zoomControl: false }).setView([30.044, 31.235], 12);
@@ -363,9 +460,108 @@ async function sendQuery() {
     const color = COLORS[colorIndex++ % COLORS.length];
     plotResults(data.results, q, color);
     appendAiResult(data.results.length, data.sql);
+
+    // If the SQL has a ST_DWithin, draw radius circles around the reference points
+    const radiusInfo = parseRadiusFromSQL(data.sql);
+    if (radiusInfo) {
+      await drawRadiusCircles(radiusInfo.table, radiusInfo.meters, color);
+    }
   } catch {
     thinkEl.remove();
     appendMsg('ai', 'Could not reach the server. Make sure FastAPI is running on port 8000.');
+  }
+}
+
+/**
+ * Parse ST_DWithin(..., ref::geography, meters) from the generated SQL.
+ * Returns { table, meters } or null.
+ *
+ * Handles patterns like:
+ *   ST_DWithin(s.wkb_geometry::geography, m.wkb_geometry::geography, 500)
+ *   ST_DWithin(wkb_geometry::geography, ref::geography, 1000)
+ */
+function parseRadiusFromSQL(sql) {
+  if (!sql) return null;
+
+  // Extract distance in meters from ST_DWithin
+  const dwithinMatch = sql.match(/ST_DWithin\s*\([^,]+,[^,]+,\s*(\d+(?:\.\d+)?)\s*\)/i);
+  if (!dwithinMatch) return null;
+  const meters = parseFloat(dwithinMatch[1]);
+
+  // Known tables — find which ones appear in the FROM/JOIN clauses
+  const KNOWN_TABLES = [
+    'metro_stations','hospitals','schools','universities',
+    'mosques','churches','parks','pharmacies','restaurants','banks','atms'
+  ];
+
+  // The "reference" table is the one in the JOIN (not the main FROM table)
+  // We look for JOIN <table> or from two tables and pick the second one
+  const joinMatch = sql.match(/JOIN\s+(\w+)\s+/i);
+  if (joinMatch) {
+    const joinTable = joinMatch[1].toLowerCase();
+    if (KNOWN_TABLES.includes(joinTable)) {
+      return { table: joinTable, meters };
+    }
+  }
+
+  // Fallback: find all table references and pick the last one
+  const allTables = KNOWN_TABLES.filter(t => new RegExp(`\\b${t}\\b`, 'i').test(sql));
+  if (allTables.length >= 2) {
+    return { table: allTables[allTables.length - 1], meters };
+  }
+
+  return null;
+}
+
+/**
+ * Fetch all points from `table`, draw a translucent circle of `meters` radius
+ * around each one to visualise the search buffer.
+ */
+async function drawRadiusCircles(table, meters, color) {
+  try {
+    const res = await fetch(`${API}/chat`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: `show all ${table.replace('_', ' ')}` })
+    });
+    if (!res.ok) return;
+    const data = await res.json();
+    if (!data.results || !data.results.length) return;
+
+    const group = L.featureGroup();
+
+    data.results.forEach(r => {
+      let geom;
+      try { geom = typeof r.geometry === 'string' ? JSON.parse(r.geometry) : r.geometry; } catch { return; }
+      if (geom.type !== 'Point') return;
+
+      const [lng, lat] = geom.coordinates;
+
+      // Draw the radius circle — interactive:false so it never intercepts hover events
+      L.circle([lat, lng], {
+        radius: meters,
+        color: color,
+        fillColor: color,
+        fillOpacity: 0.07,
+        weight: 1.5,
+        dashArray: "5 4",
+        opacity: 0.5,
+        interactive: false,
+      }).addTo(group);
+    });
+
+    const layerId = 'radius-' + Date.now();
+    group.addTo(map);
+    layerGroups[layerId] = group;
+    layers.push({
+      id: layerId,
+      label: `${meters}m radius — ${table.replace('_', ' ')}`,
+      color,
+      visible: true
+    });
+    updateLayersPanel();
+
+  } catch (e) {
+    console.warn('drawRadiusCircles failed:', e);
   }
 }
 
@@ -385,6 +581,7 @@ function appendAiResult(count, sql) {
   wrap.innerHTML = `<span class="msg-label">Assistant</span>
     <div class="bubble">
       Returned <span class="count-tag">${count} result${count !== 1 ? 's' : ''}</span> — plotted on the map.
+      <br/><small style="color:var(--ink4);font-size:11px;font-style:italic">Hover a marker to see detailed info.</small>
       <br/><button class="sql-btn" onclick="toggleSql('${id}')">▸ view generated SQL</button>
       <pre class="sql-box" id="${id}">${esc(sql)}</pre>
     </div>`;
@@ -402,29 +599,47 @@ function appendThinking() {
 }
 
 function toggleSql(id) { document.getElementById(id).classList.toggle('open'); }
-
 function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+// ── PLOT RESULTS ──────────────────────────────────────────────────────────────
 
 function plotResults(results, label, color) {
   if (!results.length) { showBadge('No results found'); return; }
   const group = L.featureGroup();
+
   results.forEach(r => {
     let geom;
     try { geom = typeof r.geometry === 'string' ? JSON.parse(r.geometry) : r.geometry; } catch { return; }
-    const props = Object.entries(r).filter(([k,v]) => v != null && k !== 'geometry' && k !== 'id').slice(0,5);
-    const popupHtml = `<div style="font-family:'IBM Plex Serif',Georgia,serif;font-size:12.5px;line-height:1.6;color:#3d3830">
-      ${props.map(([k,v])=>`<div><span style="color:#a89e92;font-size:11px;font-family:'IBM Plex Mono',monospace">${k}</span><br/>${v}</div>`).join('<hr style="border:none;border-top:1px solid #ece8de;margin:5px 0"/>')}
-    </div>`;
+
+    // Extract all non-geometry fields as metadata
+    const meta = {};
+    Object.entries(r).forEach(([k, v]) => { if (v != null && k !== 'geometry') meta[k] = v; });
+
+    // Infer place type from result fields
+    const placeType = inferPlaceType(meta, label);
+
     if (geom.type === 'Point') {
-      const [lng,lat] = geom.coordinates;
-      L.circleMarker([lat,lng], { radius:7, fillColor:color, color:'white', weight:2, fillOpacity:.9 })
-        .bindPopup(popupHtml, { className:'serif-popup' }).addTo(group);
+      const [lng, lat] = geom.coordinates;
+      const marker = L.circleMarker([lat, lng], {
+        radius: 7, fillColor: color, color: 'white', weight: 2, fillOpacity: .9
+      }).addTo(group);
+
+      // Hover: show RAG panel
+      marker.on('mouseover', () => triggerRag(meta, placeType));
+      // Click: keep panel open (don't close on mouseout if clicked)
+      marker.on('click', () => triggerRag(meta, placeType));
+
     } else if (geom.type.includes('Line')) {
       L.geoJSON({type:'Feature',geometry:geom}, { style:{color,weight:3,opacity:.8} }).addTo(group);
     } else if (geom.type.includes('Polygon')) {
-      L.geoJSON({type:'Feature',geometry:geom}, { style:{color,fillColor:color,fillOpacity:.15,weight:2} }).addTo(group);
+      const layer = L.geoJSON({type:'Feature',geometry:geom}, {
+        style:{color,fillColor:color,fillOpacity:.15,weight:2}
+      }).addTo(group);
+      layer.on('mouseover', () => triggerRag(meta, placeType));
+      layer.on('click',     () => triggerRag(meta, placeType));
     }
   });
+
   const layerId = 'layer-' + Date.now();
   group.addTo(map); layerGroups[layerId] = group;
   layers.push({ id:layerId, label: label.length>36?label.slice(0,36)+'…':label, color, visible:true });
@@ -432,6 +647,128 @@ function plotResults(results, label, color) {
   showBadge(`${results.length} result${results.length!==1?'s':''} rendered`);
   updateLayersPanel();
 }
+
+// Guess the place type from query label or OSM amenity tags
+function inferPlaceType(meta, queryLabel) {
+  if (meta.amenity) return meta.amenity;
+  const lq = queryLabel.toLowerCase();
+  if (lq.includes('universit')) return 'university';
+  if (lq.includes('hospital'))  return 'hospital';
+  if (lq.includes('mosque'))    return 'mosque';
+  if (lq.includes('church'))    return 'church';
+  if (lq.includes('school'))    return 'school';
+  if (lq.includes('pharmacy') || lq.includes('pharmac')) return 'pharmacy';
+  if (lq.includes('park'))      return 'park';
+  if (lq.includes('metro'))     return 'metro station';
+  if (lq.includes('bank'))      return 'bank';
+  if (lq.includes('atm'))       return 'atm';
+  if (lq.includes('restaurant')) return 'restaurant';
+  return 'place';
+}
+
+// ── RAG PANEL ─────────────────────────────────────────────────────────────────
+
+async function triggerRag(meta, placeType) {
+  // tags column is JSONB — unpack it so we get name:en, wikipedia, wikidata etc.
+  let tags = {};
+  if (meta.tags) {
+    try { tags = typeof meta.tags === 'string' ? JSON.parse(meta.tags) : meta.tags; } catch {}
+  }
+  const all = { ...tags, ...meta };
+
+  const name      = all['name:ar'] || all.name || all['name:en'] || 'Unknown';
+  const name_en   = all['name:en'] || null;
+  const wikipedia = all.wikipedia  || null;
+  const wikidata  = all.wikidata   || null;
+
+  // Show panel immediately with loading skeleton
+  showRagLoading(name_en || name);
+
+  const myId = ++ragRequestId;
+
+  try {
+    const res = await fetch(`${API}/enrich`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, name_en, place_type: placeType, wikipedia, wikidata })
+    });
+
+    if (myId !== ragRequestId) return; // Stale response — user hovered elsewhere
+
+    if (!res.ok) {
+      showRagError(name_en || name);
+      return;
+    }
+
+    const card = await res.json();
+    if (myId !== ragRequestId) return;
+    renderRagCard(name_en || name, card);
+
+  } catch (e) {
+    if (myId !== ragRequestId) return;
+    showRagError(name_en || name);
+  }
+}
+
+function showRagLoading(name) {
+  const panel = document.getElementById('rag-panel');
+  document.getElementById('rag-place-name').textContent = name;
+  document.getElementById('rag-category-badge').textContent = '…';
+  document.getElementById('rag-summary').innerHTML = `
+    <div class="rag-skeleton tall" style="margin-bottom:6px"></div>
+    <div class="rag-skeleton medium" style="margin-bottom:4px"></div>
+    <div class="rag-skeleton short"></div>`;
+  document.getElementById('rag-highlights').innerHTML = '';
+  document.getElementById('rag-source').innerHTML = '';
+  panel.style.display = 'block';
+}
+
+function showRagError(name) {
+  document.getElementById('rag-summary').innerHTML =
+    `<span style="color:var(--ink4);font-style:italic;font-size:12px">Could not fetch information for this place.</span>`;
+  document.getElementById('rag-highlights').innerHTML = '';
+  document.getElementById('rag-source').innerHTML = '';
+  document.getElementById('rag-category-badge').textContent = '?';
+}
+
+function renderRagCard(name, card) {
+  document.getElementById('rag-place-name').textContent = name;
+  document.getElementById('rag-category-badge').textContent = card.category || 'Place';
+
+  document.getElementById('rag-summary').textContent = card.summary || '';
+
+  const hlEl = document.getElementById('rag-highlights');
+  hlEl.innerHTML = '';
+  if (card.highlights && card.highlights.length) {
+    card.highlights.forEach(h => {
+      const div = document.createElement('div');
+      div.className = 'rag-highlight';
+      div.innerHTML = `<span class="rag-bullet">·</span><span>${esc(h)}</span>`;
+      hlEl.appendChild(div);
+    });
+  }
+
+  const srcEl = document.getElementById('rag-source');
+  if (card.found && card.source) {
+    srcEl.innerHTML = `
+      <svg id="rag-source-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      Source: ${esc(card.source)}`;
+  } else {
+    srcEl.innerHTML = `<span style="font-style:italic">No external document found</span>`;
+  }
+
+  document.getElementById('rag-panel').style.display = 'block';
+}
+
+function closeRagPanel() {
+  ragRequestId++; // Cancel any in-flight request
+  document.getElementById('rag-panel').style.display = 'none';
+}
+
+// ── LAYER MANAGEMENT ──────────────────────────────────────────────────────────
 
 function updateLayersPanel() {
   const panel = document.getElementById('layers-panel');
@@ -458,6 +795,7 @@ function clearLayers() {
   layerGroups={}; layers=[]; colorIndex=0;
   document.getElementById('layers-panel').style.display='none';
   document.getElementById('layer-list').innerHTML='';
+  closeRagPanel();
 }
 
 function showBadge(text) {
