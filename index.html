@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Geo Chatbot</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;1,300;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --paper: #faf8f3;
+  --paper2: #f3f0e8;
+  --paper3: #ece8de;
+  --ink: #1a1714;
+  --ink2: #3d3830;
+  --ink3: #7a7265;
+  --ink4: #a89e92;
+  --rule: #ddd8cc;
+  --rule2: #ccc7bb;
+  --accent: #b85c2a;
+  --accent-light: #f5ede6;
+  --accent-mid: #d4784a;
+  --green: #3a6b4a;
+  --green-light: #eaf2ec;
+  --ff-display: 'IBM Plex Serif', Georgia, serif;
+  --ff-body: 'IBM Plex Serif', Georgia, serif;
+  --r: 6px;
+  --r-lg: 12px;
+}
+
+html, body { height: 100%; overflow: hidden; background: var(--paper); color: var(--ink); font-family: var(--ff-body); }
+
+#app { display: flex; height: 100vh; }
+
+/* ── SIDEBAR ── */
+#sidebar {
+  width: 340px; min-width: 340px;
+  display: flex; flex-direction: column;
+  background: var(--paper);
+  border-right: 1.5px solid var(--rule2);
+}
+
+#topbar {
+  padding: 18px 20px 14px;
+  border-bottom: 1px solid var(--rule);
+  display: flex; flex-direction: column; gap: 2px;
+}
+#topbar h1 {
+  font-family: var(--ff-display);
+  font-size: 22px; font-weight: 600;
+  color: var(--ink); letter-spacing: -.01em;
+  line-height: 1.2;
+}
+.topbar-sub {
+  display: flex; align-items: center; justify-content: space-between;
+}
+.topbar-tagline {
+  font-size: 12px; color: var(--ink3);
+  font-style: italic; font-family: var(--ff-body); font-weight: 400;
+}
+.status {
+  display: flex; align-items: center; gap: 5px;
+  font-size: 11px; color: var(--ink4);
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: .04em;
+}
+.status-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); }
+
+/* messages */
+#messages {
+  flex: 1; overflow-y: auto; padding: 16px 18px;
+  display: flex; flex-direction: column; gap: 14px;
+  scroll-behavior: smooth;
+}
+#messages::-webkit-scrollbar { width: 3px; }
+#messages::-webkit-scrollbar-thumb { background: var(--rule2); }
+
+.msg-wrap { display: flex; flex-direction: column; gap: 3px; animation: fadeIn .2s ease; }
+@keyframes fadeIn { from{opacity:0;transform:translateY(4px)} to{opacity:1;transform:none} }
+
+.msg-label {
+  font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--ink4); font-family: 'IBM Plex Mono', monospace;
+}
+.msg-wrap.user .msg-label { color: var(--accent); }
+
+.bubble {
+  font-size: 13.5px; line-height: 1.65; padding: 10px 14px;
+  border-radius: var(--r); font-weight: 400;
+}
+.msg-wrap.ai .bubble {
+  background: white;
+  border: 1px solid var(--rule);
+  color: var(--ink2);
+  border-radius: 2px var(--r) var(--r) var(--r);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.msg-wrap.user .bubble {
+  background: var(--accent-light);
+  border: 1px solid #e8d0c4;
+  color: var(--ink);
+  align-self: flex-end;
+  border-radius: var(--r) 2px var(--r) var(--r);
+}
+
+.count-tag {
+  display: inline-block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px; font-style: normal;
+  background: var(--green-light);
+  color: var(--green);
+  padding: 1px 7px; border-radius: 20px;
+  border: 1px solid #c0d9c8;
+  margin-left: 4px;
+}
+
+/* sql */
+.sql-btn {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 11px; font-family: 'IBM Plex Mono', monospace;
+  color: var(--ink4); background: none; border: none; cursor: pointer;
+  padding: 3px 0; margin-top: 5px; letter-spacing: .02em;
+  transition: color .15s;
+}
+.sql-btn:hover { color: var(--accent); }
+.sql-box {
+  display: none; margin-top: 6px;
+  background: var(--paper2); border: 1px solid var(--rule);
+  border-radius: var(--r); padding: 10px 12px;
+  font-family: 'IBM Plex Mono', monospace; font-size: 11px;
+  color: var(--ink3); line-height: 1.6;
+  white-space: pre-wrap; word-break: break-all;
+  max-height: 150px; overflow-y: auto;
+}
+.sql-box.open { display: block; }
+
+/* thinking */
+.thinking {
+  display: flex; align-items: center; gap: 4px;
+  padding: 10px 14px;
+  background: white; border: 1px solid var(--rule);
+  border-radius: 2px var(--r) var(--r) var(--r);
+  width: fit-content;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.t-dot {
+  width: 5px; height: 5px; border-radius: 50%;
+  background: var(--ink4);
+  animation: blink 1.3s infinite;
+}
+.t-dot:nth-child(2){animation-delay:.2s} .t-dot:nth-child(3){animation-delay:.4s}
+@keyframes blink{0%,80%,100%{opacity:.15}40%{opacity:1}}
+
+/* divider rule */
+.rule-divider {
+  border: none; border-top: 1px solid var(--rule);
+  margin: 2px 0;
+}
+
+/* suggestions */
+#suggestions { display: flex; flex-direction: column; gap: 4px; margin-top: 2px; }
+.sug-btn {
+  text-align: left; font-size: 12.5px;
+  font-family: var(--ff-body); font-weight: 400; font-style: italic;
+  padding: 7px 10px; border-radius: var(--r);
+  border: 1px solid var(--rule);
+  background: var(--paper2); color: var(--ink3);
+  cursor: pointer; line-height: 1.4;
+  transition: all .15s;
+}
+.sug-btn::before { content: '→ '; font-style: normal; color: var(--ink4); }
+.sug-btn:hover { background: white; border-color: var(--rule2); color: var(--ink); }
+
+/* layers */
+#layers-panel {
+  border-top: 1px solid var(--rule);
+  padding: 10px 18px; display: none;
+  background: var(--paper2);
+}
+.lp-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.lp-title {
+  font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--ink4); font-family: 'IBM Plex Mono', monospace;
+}
+.clear-btn {
+  font-size: 10px; font-family: 'IBM Plex Mono', monospace;
+  color: var(--ink4); background: none; border: none; cursor: pointer;
+  letter-spacing: .04em; transition: color .15s;
+}
+.clear-btn:hover { color: var(--accent); }
+#layer-list { display: flex; flex-direction: column; gap: 5px; max-height: 100px; overflow-y: auto; }
+.layer-row { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.layer-row input[type=checkbox] {
+  appearance: none; width: 13px; height: 13px;
+  border-radius: 3px; border: 1.5px solid var(--rule2);
+  cursor: pointer; background: white; transition: all .15s; flex-shrink: 0;
+}
+.layer-row input[type=checkbox]:checked { background: var(--accent); border-color: var(--accent); }
+.layer-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.layer-label { font-size: 12px; color: var(--ink3); font-family: var(--ff-body); font-weight: 400; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* input */
+#input-area {
+  padding: 12px 14px;
+  border-top: 1.5px solid var(--rule2);
+  display: flex; gap: 8px; align-items: flex-end;
+  background: var(--paper);
+}
+#chat-input {
+  flex: 1;
+  background: white;
+  border: 1px solid var(--rule2);
+  border-radius: var(--r); padding: 9px 12px;
+  font-size: 13.5px; color: var(--ink);
+  font-family: var(--ff-body); font-weight: 400;
+  outline: none; resize: none; line-height: 1.5;
+  transition: border-color .2s;
+}
+#chat-input::placeholder { color: var(--ink4); font-style: italic; }
+#chat-input:focus { border-color: var(--accent-mid); }
+#send-btn {
+  width: 36px; height: 36px; border-radius: var(--r);
+  background: var(--accent); border: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; transition: background .15s, transform .1s;
+}
+#send-btn:hover { background: #a34f22; }
+#send-btn:active { transform: scale(.95); }
+#send-btn svg { width: 14px; height: 14px; stroke: white; fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+
+/* map */
+#map-wrap { flex: 1; position: relative; }
+#map { height: 100%; width: 100%; }
+
+/* result badge */
+#result-badge {
+  position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);
+  z-index: 999;
+  background: white;
+  border: 1px solid var(--rule2);
+  border-radius: 20px; padding: 7px 18px;
+  font-size: 12px; font-family: 'IBM Plex Mono', monospace;
+  color: var(--green); letter-spacing: .03em;
+  display: none; white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  animation: slideUp .25s ease;
+}
+@keyframes slideUp { from{opacity:0;transform:translateX(-50%) translateY(6px)} to{opacity:1;transform:translateX(-50%) translateY(0)} }
+
+/* leaflet popup override */
+.serif-popup .leaflet-popup-content-wrapper {
+  background: white;
+  border: 1px solid var(--rule2);
+  border-radius: var(--r-lg);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  font-family: 'IBM Plex Serif', Georgia, serif;
+  color: var(--ink2);
+}
+.serif-popup .leaflet-popup-tip { background: white; }
+.serif-popup .leaflet-popup-content { margin: 10px 14px; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="sidebar">
+    <div id="topbar">
+      <h1>GeoChat&thinsp;—&thinsp;Spatial</h1>
+      <div class="topbar-sub">
+        <span class="topbar-tagline">Ask in plain language, see on the map</span>
+      </div>
+    </div>
+
+    <div id="messages">
+      <div class="msg-wrap ai">
+        <span class="msg-label">Assistant</span>
+        <div class="bubble">Ask me anything about Cairo — hospitals, schools, pharmacies, metro stations, mosques, parks, and more. I'll query the spatial database and render results directly on the map.</div>
+      </div>
+      <div class="msg-wrap ai">
+        <span class="msg-label">Suggestions</span>
+        <div id="suggestions"></div>
+      </div>
+    </div>
+
+    <div id="layers-panel">
+      <div class="lp-header">
+        <span class="lp-title">Active layers</span>
+        <button class="clear-btn" onclick="clearLayers()">clear all</button>
+      </div>
+      <div id="layer-list"></div>
+    </div>
+
+    <div id="input-area">
+      <textarea id="chat-input" rows="1"></textarea>
+      <button id="send-btn" onclick="sendQuery()" aria-label="Send">
+        <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="map-wrap">
+    <div id="map"></div>
+    <div id="result-badge"></div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const API = 'http://localhost:8000';
+
+const SUGGESTIONS = [
+  'Find the 5 nearest pharmacies to Tahrir Square',
+  'Find schools within 500 m of a metro station',
+  'Which universities have hospitals nearby?',
+  "Which university has the most pharmacies nearby?"
+
+];
+
+const COLORS = ['#b85c2a','#3a6b4a','#2a6bb8','#7a3a8a','#8a6a2a','#2a8a6a','#8a2a4a'];
+let colorIndex = 0, layerGroups = {}, layers = [], map;
+
+window.addEventListener('load', () => {
+  map = L.map('map', { zoomControl: false }).setView([30.044, 31.235], 12);
+  L.control.zoom({ position: 'bottomright' }).addTo(map);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '© OpenStreetMap © CARTO', maxZoom: 19
+  }).addTo(map);
+  buildSuggestions();
+  autoResize();
+});
+
+function buildSuggestions() {
+  const wrap = document.getElementById('suggestions');
+  SUGGESTIONS.forEach(s => {
+    const b = document.createElement('button');
+    b.className = 'sug-btn'; b.textContent = s;
+    b.onclick = () => { document.getElementById('chat-input').value = s; sendQuery(); };
+    wrap.appendChild(b);
+  });
+}
+
+function autoResize() {
+  const ta = document.getElementById('chat-input');
+  ta.addEventListener('input', () => { ta.style.height = 'auto'; ta.style.height = Math.min(ta.scrollHeight, 100) + 'px'; });
+  ta.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendQuery(); } });
+}
+
+async function sendQuery() {
+  const ta = document.getElementById('chat-input');
+  const q = ta.value.trim(); if (!q) return;
+  ta.value = ''; ta.style.height = 'auto';
+  appendMsg('user', q);
+  const thinkEl = appendThinking();
+  try {
+    const res = await fetch(`${API}/chat`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: q })
+    });
+    const data = await res.json(); thinkEl.remove();
+    if (!res.ok) { appendMsg('ai', data.detail || 'Something went wrong.'); return; }
+    const color = COLORS[colorIndex++ % COLORS.length];
+    plotResults(data.results, q, color);
+    appendAiResult(data.results.length, data.sql);
+  } catch {
+    thinkEl.remove();
+    appendMsg('ai', 'Could not reach the server. Make sure FastAPI is running on port 8000.');
+  }
+}
+
+function appendMsg(role, text) {
+  const msgs = document.getElementById('messages');
+  const wrap = document.createElement('div');
+  wrap.className = 'msg-wrap ' + role;
+  wrap.innerHTML = `<span class="msg-label">${role === 'user' ? 'You' : 'Assistant'}</span><div class="bubble">${esc(text)}</div>`;
+  msgs.appendChild(wrap); msgs.scrollTop = msgs.scrollHeight;
+}
+
+function appendAiResult(count, sql) {
+  const msgs = document.getElementById('messages');
+  const id = 'sql-' + Date.now();
+  const wrap = document.createElement('div');
+  wrap.className = 'msg-wrap ai';
+  wrap.innerHTML = `<span class="msg-label">Assistant</span>
+    <div class="bubble">
+      Returned <span class="count-tag">${count} result${count !== 1 ? 's' : ''}</span> — plotted on the map.
+      <br/><button class="sql-btn" onclick="toggleSql('${id}')">▸ view generated SQL</button>
+      <pre class="sql-box" id="${id}">${esc(sql)}</pre>
+    </div>`;
+  msgs.appendChild(wrap); msgs.scrollTop = msgs.scrollHeight;
+}
+
+function appendThinking() {
+  const msgs = document.getElementById('messages');
+  const wrap = document.createElement('div');
+  wrap.className = 'msg-wrap ai';
+  wrap.innerHTML = `<span class="msg-label">Assistant</span>
+    <div class="thinking"><span class="t-dot"></span><span class="t-dot"></span><span class="t-dot"></span></div>`;
+  msgs.appendChild(wrap); msgs.scrollTop = msgs.scrollHeight;
+  return wrap;
+}
+
+function toggleSql(id) { document.getElementById(id).classList.toggle('open'); }
+
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function plotResults(results, label, color) {
+  if (!results.length) { showBadge('No results found'); return; }
+  const group = L.featureGroup();
+  results.forEach(r => {
+    let geom;
+    try { geom = typeof r.geometry === 'string' ? JSON.parse(r.geometry) : r.geometry; } catch { return; }
+    const props = Object.entries(r).filter(([k,v]) => v != null && k !== 'geometry' && k !== 'id').slice(0,5);
+    const popupHtml = `<div style="font-family:'IBM Plex Serif',Georgia,serif;font-size:12.5px;line-height:1.6;color:#3d3830">
+      ${props.map(([k,v])=>`<div><span style="color:#a89e92;font-size:11px;font-family:'IBM Plex Mono',monospace">${k}</span><br/>${v}</div>`).join('<hr style="border:none;border-top:1px solid #ece8de;margin:5px 0"/>')}
+    </div>`;
+    if (geom.type === 'Point') {
+      const [lng,lat] = geom.coordinates;
+      L.circleMarker([lat,lng], { radius:7, fillColor:color, color:'white', weight:2, fillOpacity:.9 })
+        .bindPopup(popupHtml, { className:'serif-popup' }).addTo(group);
+    } else if (geom.type.includes('Line')) {
+      L.geoJSON({type:'Feature',geometry:geom}, { style:{color,weight:3,opacity:.8} }).addTo(group);
+    } else if (geom.type.includes('Polygon')) {
+      L.geoJSON({type:'Feature',geometry:geom}, { style:{color,fillColor:color,fillOpacity:.15,weight:2} }).addTo(group);
+    }
+  });
+  const layerId = 'layer-' + Date.now();
+  group.addTo(map); layerGroups[layerId] = group;
+  layers.push({ id:layerId, label: label.length>36?label.slice(0,36)+'…':label, color, visible:true });
+  try { map.fitBounds(group.getBounds(), { padding:[40,40], maxZoom:15 }); } catch {}
+  showBadge(`${results.length} result${results.length!==1?'s':''} rendered`);
+  updateLayersPanel();
+}
+
+function updateLayersPanel() {
+  const panel = document.getElementById('layers-panel');
+  const list = document.getElementById('layer-list');
+  panel.style.display = 'block'; list.innerHTML = '';
+  layers.forEach(l => {
+    const row = document.createElement('label');
+    row.className = 'layer-row';
+    row.innerHTML = `<input type="checkbox" ${l.visible?'checked':''} onchange="toggleLayer('${l.id}',this.checked)"/>
+      <span class="layer-dot" style="background:${l.color}"></span>
+      <span class="layer-label" title="${l.label}">${l.label}</span>`;
+    list.appendChild(row);
+  });
+}
+
+function toggleLayer(id, vis) {
+  const g = layerGroups[id]; if (!g) return;
+  const l = layers.find(x=>x.id===id); if(l) l.visible=vis;
+  vis ? g.addTo(map) : map.removeLayer(g);
+}
+
+function clearLayers() {
+  Object.values(layerGroups).forEach(g=>map.removeLayer(g));
+  layerGroups={}; layers=[]; colorIndex=0;
+  document.getElementById('layers-panel').style.display='none';
+  document.getElementById('layer-list').innerHTML='';
+}
+
+function showBadge(text) {
+  const b = document.getElementById('result-badge');
+  b.textContent = text; b.style.display = 'block';
+  clearTimeout(b._t); b._t = setTimeout(()=>b.style.display='none', 3000);
+}
+</script>
+</body>
+</html>
