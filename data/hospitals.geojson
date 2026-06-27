@@ -1,0 +1,7674 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-02T14:39:22Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10719660",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3371579,
+          30.106311
+        ]
+      },
+      "id": "relation/10719660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16740885",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفيات جامعة القاهرة",
+        "name:ar": "مستشفيات جامعة القاهرة",
+        "name:en": "Cairo University Hospitals",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2285753,
+          30.031481
+        ]
+      },
+      "id": "relation/16740885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19513748",
+        "amenity": "hospital",
+        "building": "yes;hospital",
+        "check_date": "2025-08-22",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "height": "30",
+        "name": "مستشفى السلام;مستشفى السلام الدولى",
+        "name:ar": "مستشفى السلام;مستشفى السلام الدولى",
+        "name:en": "Salam Hospital;As-Salam International Hospital",
+        "opening_hours": "24/7",
+        "operator": "Alameda",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2306011,
+          29.9851179
+        ]
+      },
+      "id": "relation/19513748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28661710",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى هليوبولس",
+        "name:ar": "مستشفى هليوبولس",
+        "name:en": "Heliopolis hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3370821,
+          30.106514
+        ]
+      },
+      "id": "way/28661710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28827053",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفي ابو الريش الجامعي للاطفال بالمنيرة",
+        "name:ar": "مستشفي ابو الريش الجامعي للاطفال بالمنيرة",
+        "name:en": "Abu Al-Rish University Hospital for Children",
+        "note": "tag name --> arabic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.234924,
+          30.0292992
+        ]
+      },
+      "id": "way/28827053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28828990",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى العباسية للصحة النفسية",
+        "name:ar": "مستشفى العباسية للصحة النفسية",
+        "name:en": "Abbasseya Mental Health Hospital",
+        "wikidata": "Q64744346",
+        "wikipedia": "ar:مستشفى العباسية للصحة النفسية",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2965076,
+          30.0680958
+        ]
+      },
+      "id": "way/28828990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28829672",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى القوات المسلحة",
+        "name:ar": "مستشفى القوات المسلحة",
+        "name:en": "Hospital of the Armed Forces",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2438901,
+          29.968369
+        ]
+      },
+      "id": "way/28829672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28829872",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الانجلو امريكان",
+        "name:ar": "مستشفى الانجلو امريكان",
+        "name:en": "Anglo-American Hospital",
+        "name:fa": "بیمارستان انگلو آمریکا",
+        "note": "tag name --> arabic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2217663,
+          30.0460246
+        ]
+      },
+      "id": "way/28829872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28848108",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي غمرة العسكري ( الاسرائيلي سابقا) بالشرابية",
+        "name:ar": "مستشفي غمرة العسكري ( الاسرائيلي سابقا) بالشرابية",
+        "name:en": "Ghamra Military Hospital",
+        "note": "tag name --> arabic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2626178,
+          30.068939
+        ]
+      },
+      "id": "way/28848108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28865204",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "internet_access": "wlan",
+        "man_made": "particle_accelerator",
+        "name": "مؤسسة مستشفى سرطان الأطفال",
+        "name:ar": "مؤسسة مستشفى سرطان الأطفال",
+        "name:en": "Children's Cancer Hospital Foundation",
+        "particle_accelerator": "circular",
+        "substance": "proton",
+        "wikidata": "Q4640784",
+        "wikimedia_commons": "Category:57357 Hospital",
+        "wikipedia": "en:Children's Cancer Hospital Egypt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2378383,
+          30.0229766
+        ]
+      },
+      "id": "way/28865204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29419802",
+        "amenity": "hospital",
+        "name": "مستشفى شبرة العام",
+        "name:ar": "مستشفى شبرة العام",
+        "name:en": "Shobra General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2523313,
+          30.0731007
+        ]
+      },
+      "id": "way/29419802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29850585",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مركز طبى منشأة ناصر",
+        "name:ar": "مركز طبى منشأة ناصر",
+        "name:en": "Manshiet Naser Medical Centre",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2834925,
+          30.0428396
+        ]
+      },
+      "id": "way/29850585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29990917",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "المستشفى اليوناني",
+        "name:ar": "المستشفى اليوناني",
+        "name:en": "The Greek Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2809742,
+          30.066048
+        ]
+      },
+      "id": "way/29990917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29990924",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "المستشفى الإيطالي",
+        "name:ar": "المستشفى الإيطالي",
+        "name:en": "Italian Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2826785,
+          30.0660659
+        ]
+      },
+      "id": "way/29990924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29991131",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "المستشفى التخصصى",
+        "name:ar": "المستشفى التخصصى",
+        "name:en": "Specialized Hospital",
+        "operator": "جامعة عين شمس",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2904634,
+          30.0763999
+        ]
+      },
+      "id": "way/29991131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29991193",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الدمرداش",
+        "name:ar": "مستشفى الدمرداش",
+        "name:en": "Al Demerdash Hospital",
+        "operator": "جامعة عين شمس",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2776939,
+          30.0735452
+        ]
+      },
+      "id": "way/29991193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/30065029",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الهميات",
+        "name:ar": "مستشفى الحميات",
+        "name:en": "Mustashfa Al-Hummiyat",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2246399,
+          30.08396
+        ]
+      },
+      "id": "way/30065029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/31820663",
+        "addr:country": "EG",
+        "addr:district": "اول مدينة نصر",
+        "addr:district:en": "First Nasr City",
+        "addr:housenumber": "24",
+        "addr:postcode": "11765",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع الدكتور انور المفتي",
+        "addr:street:en": "Al Doctor Anwar Al Mofty Street",
+        "addr:subdistrict": "منطقة 1",
+        "addr:subdistrict:en": "Area 1",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى تبارك للولادة والأطفال",
+        "name:ar": "مستشفى تبارك للولادة والأطفال",
+        "name:en": "Tabarak for Children",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.33408,
+          30.0667281
+        ]
+      },
+      "id": "way/31820663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/32694180",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى العاملين بقطاع البترول",
+        "name:ar": "مستشفى العاملين بقطاع البترول",
+        "name:en": "Petrolium Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3465194,
+          30.0646367
+        ]
+      },
+      "id": "way/32694180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/32694193",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "د. يس غبد الغقار لأمراض الكبد",
+        "name:ar": "مركز د. ياسين عبد الغفار",
+        "name:en": "Dr. Yassin Abdel Ghafar for kidney",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3467426,
+          30.0644952
+        ]
+      },
+      "id": "way/32694193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/37789099",
+        "addr:city": "cairo",
+        "addr:housenumber": "6",
+        "addr:street": "Ahmed Fakhry, Al Manteqah as Sadesah, Nasr City, Cairo Governorate",
+        "amenity": "hospital",
+        "building": "yes",
+        "email": "hassabo@hih.com.eg",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "حسبو الدولي",
+        "name:ar": "حسبو الدولي",
+        "name:en": "Hasabo International",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3491603,
+          30.068128
+        ]
+      },
+      "id": "way/37789099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38071251",
+        "alt_name": "مستشفى رابعة العدوية",
+        "alt_name:en": "Rabaa Al Adaweya Hospital",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى مدينة نصر التخصصى",
+        "name:ar": "مستشفى مدينة نصر التخصصى",
+        "name:en": "Nasr City Specialized Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3260463,
+          30.066535
+        ]
+      },
+      "id": "way/38071251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44349347",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الشيخ زايد المركزي العام",
+        "name:ar": "مستشفى الشيخ زايد المركزي العام",
+        "name:en": "El-Sheikh Zayed General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0089524,
+          30.039918
+        ]
+      },
+      "id": "way/44349347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47975460",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "landuse": "military",
+        "name": "مستشفى أحمد جلال العسكرى",
+        "name:ar": "مستشفى أحمد جلال العسكرى",
+        "name:en": "Ahmed Gala Military Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4235454,
+          30.1365063
+        ]
+      },
+      "id": "way/47975460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/48980479",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى العجوزة",
+        "name:ar": "مستشفى العجوزة",
+        "name:en": "Mustashfa Al-Aguza",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2154138,
+          30.0543762
+        ]
+      },
+      "id": "way/48980479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51799433",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "الزهراء",
+        "name:ar": "الزهراء",
+        "name:en": "El-Zahraa",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3316957,
+          30.0603801
+        ]
+      },
+      "id": "way/51799433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52294846",
+        "amenity": "hospital",
+        "building": "yes",
+        "check_date": "2026-03-17",
+        "healthcare": "hospital",
+        "name": "أبو الريش للأطفال - الياباني",
+        "name:ar": "أبو الريش للأطفال - الياباني",
+        "name:en": "Abu A-Reesh Japanese Children Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2333267,
+          30.0285623
+        ]
+      },
+      "id": "way/52294846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/53329696",
+        "alt_name:en": "Al Zohairy",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى يسرى جوهر",
+        "name:ar": "مستشفى يسرى جوهر",
+        "name:en": "Yusry Gohar Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2227908,
+          30.0125355
+        ]
+      },
+      "id": "way/53329696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/53330987",
+        "addr:housenumber": "33",
+        "addr:street": "شارع الاخشيد",
+        "amenity": "hospital",
+        "building": "yes",
+        "check_date": "2025-04-05",
+        "contact:facebook": "https://www.facebook.com/zohairyhospital/",
+        "email": "info@zohairyhospital.com",
+        "healthcare": "hospital",
+        "name": "مستشفى الزهيرى",
+        "name:ar": "مستشفى الزهيرى",
+        "name:en": "Al-Zohairy Hospital",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+20 102 221 0537",
+        "website": "https://www.zohairyhospital.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2234988,
+          30.0136688
+        ]
+      },
+      "id": "way/53330987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/59622137",
+        "addr:housenumber": "10",
+        "addr:street": "حسنين هيكل",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفي دار الحكمة",
+        "name:ar": "مستشفي دار الحكمة",
+        "name:en": "Dar Al-Hekma Hospital",
+        "website": "http://www.daralhekma-hospital.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3380511,
+          30.0658436
+        ]
+      },
+      "id": "way/59622137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/81564324",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "مستشفى صفوة الجولف",
+        "name:ar": "مستشفى صفوة الجولف",
+        "name:en": "Safwat Al-Golf Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3359335,
+          30.0837012
+        ]
+      },
+      "id": "way/81564324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/81564563",
+        "amenity": "hospital",
+        "name": "ام النور",
+        "name:ar": "ام النور",
+        "name:en": "Um Al-Nour",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3338771,
+          30.0822412
+        ]
+      },
+      "id": "way/81564563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94125740",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفي جامعة بنها",
+        "name:ar": "مستشفي جامعة بنها",
+        "name:en": "Banha University Hospital",
+        "opening_hours": "24/7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1787252,
+          30.4697598
+        ]
+      },
+      "id": "way/94125740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94172969",
+        "amenity": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0120006,
+          30.5746196
+        ]
+      },
+      "id": "way/94172969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94507198",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Egyptair Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4046041,
+          30.1274497
+        ]
+      },
+      "id": "way/94507198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94592273",
+        "amenity": "hospital",
+        "check_date": "2025-02-03",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "level": "2",
+        "name": "مستشفى دار الفؤاد",
+        "name:ar": "مستشفى دار الفؤاد",
+        "name:en": "Dar Al-Fourad hospital",
+        "opening_hours": "24/7",
+        "operator": "Alameda",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "16370",
+        "website": "https://daralfouad.org",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9676311,
+          29.9974921
+        ]
+      },
+      "id": "way/94592273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95830900",
+        "amenity": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1495059,
+          30.9506066
+        ]
+      },
+      "id": "way/95830900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95830904",
+        "amenity": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1498178,
+          30.9530259
+        ]
+      },
+      "id": "way/95830904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95926225",
+        "amenity": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8199363,
+          30.820381
+        ]
+      },
+      "id": "way/95926225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96922027",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5472285,
+          29.9682103
+        ]
+      },
+      "id": "way/96922027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97145192",
+        "addr:city": "القاهرة",
+        "alt_name": "مستشفى الجلاء للولادة و الأطفال و أمراض النساء",
+        "alt_name:en": "Al Galaa Maternity, Children and Gynecology Hospital",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الجلاء التعليمى",
+        "name:ar": "مستشفى الجلاء التعليمى",
+        "name:en": "Al Galaa Teaching Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2375689,
+          30.0544787
+        ]
+      },
+      "id": "way/97145192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97199911",
+        "addr:city": "القاهرة",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "الهلال الاحمر المصرى",
+        "name:ar": "الهلال الاحمر المصرى",
+        "name:en": "The Red Crescent Hospital",
+        "name:fa": "هلال احمر مصر",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2440029,
+          30.0591563
+        ]
+      },
+      "id": "way/97199911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97199915",
+        "addr:city": "القاهرة",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى هيئة سكك حديد",
+        "name:ar": "مستشفى هيئة سكك حديد",
+        "name:en": "Egyptian Railways Authority Hospital",
+        "name:fa": "بیمارستان اداره راه آهن",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2419287,
+          30.0586924
+        ]
+      },
+      "id": "way/97199915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97234524",
+        "amenity": "hospital",
+        "check_date": "2025-11-06",
+        "name": "مستشفى الاسماعيلية العام",
+        "name:ar": "مستشفى الاسماعيلية العام",
+        "name:en": "Ismailia General Hospital",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2875933,
+          30.6200468
+        ]
+      },
+      "id": "way/97234524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97252486",
+        "addr:housenumber": "42 km",
+        "addr:street": "طريق القاهرة, الاسماعيليه الصحراوي",
+        "amenity": "hospital",
+        "check_date": "2026-06-01",
+        "name": "المركز الطبى العالمى",
+        "name:ar": "المركز الطبى العالمى",
+        "name:en": "International Medical Centre",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "16221",
+        "website": "https://www.imc.org.eg",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6566636,
+          30.1941847
+        ]
+      },
+      "id": "way/97252486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97716314",
+        "amenity": "hospital",
+        "name": "مُستشفى وادي النيل",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2948645,
+          30.0991121
+        ]
+      },
+      "id": "way/97716314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97937701",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي بولاق ابو العلا",
+        "name:ar": "مستشفي بولاق ابو العلا",
+        "name:en": "Boulaq Abu Al-Elaa Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2289215,
+          30.0630069
+        ]
+      },
+      "id": "way/97937701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97941694",
+        "addr:country": "EG",
+        "addr:district": "الزمالك",
+        "addr:district:en": "El Zamalek",
+        "addr:housenumber": "3",
+        "addr:postcode": "11568",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع صالح سليم",
+        "addr:street:en": "Saleh Selim Street",
+        "addr:subdistrict": "عمر الخيام",
+        "addr:subdistrict:en": "Omar El Khayam",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى المعلمين",
+        "name:ar": "مستشفى المعلمين",
+        "name:en": "Al-Moallemeen Hospital",
+        "roof:shape": "flat",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2247836,
+          30.0446294
+        ]
+      },
+      "id": "way/97941694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108126059",
+        "amenity": "hospital",
+        "barrier": "fence",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى جامعة الأزهر التخصصى",
+        "name:ar": "مستشفى جامعة الأزهر التخصصى",
+        "name:en": "Al-Azhar University Specialized Hospital",
+        "operator": "جامعة الأزهر",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3142765,
+          30.054813
+        ]
+      },
+      "id": "way/108126059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/136435260",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مبرة المعادي",
+        "name:ar": "مبرة المعادي",
+        "name:en": "Al-Maadi Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.260737,
+          29.9535739
+        ]
+      },
+      "id": "way/136435260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/143901025",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "مستشفى منشأة الاخوة الخيرى",
+        "name:ar": "مستشفى منشأة الاخوة الخيرى",
+        "name:en": "Mansheyat Al-Ikhwa Charity Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3619791,
+          30.9301134
+        ]
+      },
+      "id": "way/143901025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/167427173",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Royal",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3144951,
+          29.9806559
+        ]
+      },
+      "id": "way/167427173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/169324338",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "مستشفى قليوب الجديدة",
+        "name:ar": "مستشفى قليوب الجديدة",
+        "name:en": "Qalyub New Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2228094,
+          30.1784129
+        ]
+      },
+      "id": "way/169324338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/169325232",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "النيل",
+        "name:ar": "النيل",
+        "name:en": "Al-Nil Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2448542,
+          30.1209208
+        ]
+      },
+      "id": "way/169325232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/169326443",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "معهد ناصر",
+        "name:ar": "معهد ناصر",
+        "name:en": "Nasser Institute",
+        "wikidata": "Q50035622",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2396507,
+          30.0964812
+        ]
+      },
+      "id": "way/169326443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/169999191",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "المنيرة العام",
+        "name:ar": "المنيرة العام",
+        "name:en": "Monira Public Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2383765,
+          30.0350488
+        ]
+      },
+      "id": "way/169999191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/200440153",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى أم المصريين العام",
+        "name:ar": "مستشفى أم المصريين العام",
+        "name:en": "Om El Masryeen Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2102114,
+          30.0054971
+        ]
+      },
+      "id": "way/200440153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/209081755",
+        "amenity": "hospital",
+        "emergency": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4950593,
+          30.3374009
+        ]
+      },
+      "id": "way/209081755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/210145471",
+        "addr:city": "مدينة السادات",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "مستشفى الحميات",
+        "name:ar": "مستشفى الحميات",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5189828,
+          30.374261
+        ]
+      },
+      "id": "way/210145471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/210628595",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "مستشفى السادات العام",
+        "name:ar": "مستشفى السادات العام",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5059539,
+          30.3671095
+        ]
+      },
+      "id": "way/210628595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/210630116",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "الإدارة الصحية بمدينة السادات",
+        "name:ar": "الإدارة الصحية بمدينة السادات",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4971568,
+          30.3743435
+        ]
+      },
+      "id": "way/210630116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/210681535",
+        "amenity": "hospital",
+        "name": "مستشفى الروضة",
+        "name:ar": "مستشفى الروضة",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5130116,
+          30.3577467
+        ]
+      },
+      "id": "way/210681535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/210966223",
+        "amenity": "hospital",
+        "name": "مستشفى التأمين الصحي",
+        "name:ar": "مستشفى التأمين الصحي",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5113716,
+          30.3624468
+        ]
+      },
+      "id": "way/210966223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/211057955",
+        "addr:city": "مدينة السادات",
+        "addr:street": "سعد بن أبي وقاص",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "مستشفى دار الشفاء",
+        "name:ar": "مستشفى دار الشفاء",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5107065,
+          30.3638889
+        ]
+      },
+      "id": "way/211057955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/211571017",
+        "addr:city": "مدينة السادات",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "الإدارة الطبية بجامعة مدينة السادات",
+        "name:ar": "الإدارة الطبية بجامعة مدينة السادات",
+        "operator": "جامعة مدينة السادات",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.527381,
+          30.3659083
+        ]
+      },
+      "id": "way/211571017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/228958673",
+        "addr:city": "دسوق",
+        "addr:street": "ميدان أحمد زويل",
+        "amenity": "hospital",
+        "building": "yes",
+        "ele": "1",
+        "emergency": "yes",
+        "name": "نقطة إسعاف الشريف",
+        "name:ar": "نقطة إسعاف الشريف",
+        "name:en": "Ambulance",
+        "operator": "وزارة الصحة والسكان",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6523473,
+          31.1371925
+        ]
+      },
+      "id": "way/228958673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230770945",
+        "amenity": "hospital",
+        "name": "مستشفى الشرطة",
+        "name:ar": "مستشفى الشرطة",
+        "name:en": "Police Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3306065,
+          30.0377848
+        ]
+      },
+      "id": "way/230770945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/240709776",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى مصر الجديدة العسكرى",
+        "name:ar": "مستشفى مصر الجديدة العسكرى",
+        "name:en": "Masr El Gedida Military Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3328908,
+          30.1145252
+        ]
+      },
+      "id": "way/240709776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/244349665",
+        "addr:housename": "مستشفى جامعة مصر",
+        "addr:street": "محور 26 يوليو",
+        "alt_name": "مستشفى سعاد كفافي الجامعي",
+        "amenity": "hospital",
+        "building": "yes",
+        "check_date": "2025-11-26",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى جامعة مصر",
+        "name:ar": "مستشفى جامعة مصر",
+        "name:en": "MUST hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.966095,
+          29.9973985
+        ]
+      },
+      "id": "way/244349665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/247887765",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "مستشفى الشرطة",
+        "name:ar": "مستشفى الشرطة",
+        "name:en": "Police Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9187639,
+          29.9570139
+        ]
+      },
+      "id": "way/247887765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/247887880",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "name": "مركز القاهرة الطبى",
+        "name:ar": "مركز القاهرة الطبى",
+        "name:en": "Cairo Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9178364,
+          29.9557521
+        ]
+      },
+      "id": "way/247887880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/248141728",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "مركز د.عصام بليغ للقلب والأوعية",
+        "name:ar": "مركز د.عصام بليغ للقلب والأوعية",
+        "name:en": "Dr.Essam Baligh for Cardiovascular and Ultrasound Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9330272,
+          29.966068
+        ]
+      },
+      "id": "way/248141728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/248170353",
+        "addr:city": "مدينة 6 أكتوبر",
+        "addr:housename": "مستشفى الوادى",
+        "addr:street": "أبو بكر الصديق",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى الوادى",
+        "name:ar": "مستشفى الوادى",
+        "name:en": "Al Wadi hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9492891,
+          29.9679843
+        ]
+      },
+      "id": "way/248170353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/248171292",
+        "addr:city": "مدينة 6 أكتوبر",
+        "addr:housename": "مستشفى الصفوة",
+        "addr:street": "شارع ريتش باك",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى الصفوة",
+        "name:ar": "مستشفى الصفوة",
+        "name:en": "Al Safwa hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9511938,
+          29.966224
+        ]
+      },
+      "id": "way/248171292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/269472090",
+        "addr:city": "القاهرة",
+        "addr:street": "شارع دمشق",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى دمشق التخصصي",
+        "name:ar": "مستشفى دمشق التخصصي",
+        "name:en": "Damascus Specialist Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1925152,
+          30.0550877
+        ]
+      },
+      "id": "way/269472090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/304453497",
+        "addr:city": "Damietta",
+        "addr:street": "El Harby St.",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Damietta Cancer Institute",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.8021898,
+          31.4378058
+        ]
+      },
+      "id": "way/304453497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/309088055",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "El Ahly Bank Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3459353,
+          29.9824474
+        ]
+      },
+      "id": "way/309088055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/315327020",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي فيني وحدة الغسيل الكلوي",
+        "name:ar": "مستشفي فيني وحدة الغسيل الكلوي",
+        "name:en": "Finey Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2143057,
+          30.0414359
+        ]
+      },
+      "id": "way/315327020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/322265376",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "minia el kamh hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3522208,
+          30.5211971
+        ]
+      },
+      "id": "way/322265376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/348068662",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى الهيئة",
+        "name:ar": "مستشفى الهيئة",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.3094988,
+          30.596819
+        ]
+      },
+      "id": "way/348068662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/355428539",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "المنتجع الصحى للطب النفسى أ.د أحمد عكاشة",
+        "name:ar": "المنتجع الصحى للطب النفسى أ.د أحمد عكاشة",
+        "name:en": "Psychological Health Resort of Prof Dr Ahmed Okasha",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4677101,
+          30.0399533
+        ]
+      },
+      "id": "way/355428539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/360884543",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Main Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5440437,
+          31.1471907
+        ]
+      },
+      "id": "way/360884543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/366500797",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "معهد القلب",
+        "name:ar": "معهد القلب",
+        "name:en": "Maahad El Qalb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2098013,
+          30.064775
+        ]
+      },
+      "id": "node/366500797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/376827235",
+        "amenity": "hospital",
+        "building": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Capital Hospital",
+        "name:en": "Capital Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3311474,
+          30.0958488
+        ]
+      },
+      "id": "way/376827235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/395078776",
+        "amenity": "hospital",
+        "name": "الوحدة الصحية بالمجد",
+        "name:ar": "الوحدة الصحية بالمجد",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6723326,
+          31.0921401
+        ]
+      },
+      "id": "way/395078776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397057595",
+        "addr:housenumber": "2",
+        "addr:street": "احمد الزمر",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "fixme": "please use ascii w/o blanks for tags: مواعيد العمل = 11.0 - 8.30 ص",
+        "name": "برج معمل الفا لاب الطبى",
+        "name:ar": "برج معمل الفا لاب الطبى",
+        "operator": "معمل الفا +اشعة ورنين مغناطيسى +عيادات لنخبة من الاساتذة والاستشاريين",
+        "phone": "012227449556",
+        "لحجز الزيارات المنزلية": "16191",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3783536,
+          30.0492931
+        ]
+      },
+      "id": "way/397057595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/411466462",
+        "addr:city": "القاهرة الزاوية الحمراء",
+        "addr:street": "شارع المستشفى",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "مستشفى الزاوية الحمراء",
+        "name:ar": "مستشفى الزاوية الحمراء",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2664669,
+          30.1017839
+        ]
+      },
+      "id": "way/411466462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/411676470",
+        "alt_name": "القوات الجوية",
+        "amenity": "hospital",
+        "name": "مستشفى القوات الجوية",
+        "name:ar": "مستشفى القوات الجوية",
+        "name:en": "Al-Quwat Al-Gaweya Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2738254,
+          30.0624158
+        ]
+      },
+      "id": "node/411676470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/411895460",
+        "addr:country": "EG",
+        "addr:district": "مصر الجديده",
+        "addr:district:en": "Heliopolis",
+        "addr:housenumber": "4",
+        "addr:postcode": "11737",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع ابو عبيد البكرى",
+        "addr:street:en": "Abou Abaid Al Bakry Street",
+        "addr:subdistrict": "المنتزه",
+        "addr:subdistrict:en": "Al Muntazah",
+        "alt_name": "مركز القاهرة الطبي",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي القاهرة التخصصى",
+        "name:ar": "مستشفى القاهرة التخصصي",
+        "name:en": "Cairo Specialized Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.317617,
+          30.0945129
+        ]
+      },
+      "id": "node/411895460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/414001473",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى الشرطة",
+        "name:ar": "مستشفى الشرطة",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2157805,
+          30.0531506
+        ]
+      },
+      "id": "way/414001473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/414554419",
+        "alt_name": "دار المقطم",
+        "amenity": "hospital",
+        "name": "دار المقطم",
+        "name:ar": "دار المقطم",
+        "name:en": "Dar Al-Moqattam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2854199,
+          30.0112377
+        ]
+      },
+      "id": "node/414554419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/443368255",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مركز الإيمان الطبي",
+        "name:ar": "مركز الإيمان الطبي",
+        "name:en": "El Eman Medical Center",
+        "note": "correct arabic tag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3455818,
+          30.0642054
+        ]
+      },
+      "id": "node/443368255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/452376256",
+        "addr:city": "القاهرة",
+        "addr:street": "شارع كمال الدين حسين",
+        "alt_name": "النزهة الدولي",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "النزهة الدولي",
+        "name:ar": "النزهة الدولي",
+        "name:en": "Al-Nozha Al-Dawly"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3661322,
+          30.1058829
+        ]
+      },
+      "id": "node/452376256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/455452669",
+        "addr:city": "مدينة نصر",
+        "addr:street": "يوسف عباس",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى دار الفؤاد",
+        "name:ar": "مستشفى دار الفؤاد",
+        "name:en": "Dar Al Fouad Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3196199,
+          30.0657092
+        ]
+      },
+      "id": "way/455452669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/475367904",
+        "alt_name": "مستشفى مسجد الفتح",
+        "amenity": "hospital",
+        "name": "مستشفى الفتح الإسلامي",
+        "name:ar": "مستشفى الفتح الإسلامي",
+        "name:en": "Alfath Islamic Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2542684,
+          29.9660774
+        ]
+      },
+      "id": "node/475367904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/497855286",
+        "addr:place": "Durrat Al Qahira",
+        "addr:place:ar": "درة القاهرة",
+        "addr:place:en": "Durrat Al Qahira",
+        "amenity": "hospital",
+        "construction": "yes",
+        "name": "مستشفى درة القاهرة",
+        "name:ar": "مستشفى درة القاهرة",
+        "name:en": "Durrat Al Qahira Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4963472,
+          30.0495344
+        ]
+      },
+      "id": "way/497855286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523254716",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3270141,
+          30.062687
+        ]
+      },
+      "id": "node/523254716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/541483731",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "kafr shokr hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2527475,
+          30.553581
+        ]
+      },
+      "id": "way/541483731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/563331509",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6548568,
+          31.1370658
+        ]
+      },
+      "id": "way/563331509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/563331515",
+        "addr:city": "دسوق",
+        "addr:street": "المستشفى العام",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "Fever",
+        "name": "مستشفى الحميات",
+        "name:ar": "مستشفى الحميات",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6436701,
+          31.1388146
+        ]
+      },
+      "id": "way/563331515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/563331516",
+        "addr:city": "دسوق",
+        "addr:street": "المستشفى العام",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "مستشفى دسوق العام",
+        "name:ar": "مستشفى دسوق العام",
+        "name:en": "Desouk General Hospital",
+        "operator": "وزارة الصحة والسكان",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6442825,
+          31.1379786
+        ]
+      },
+      "id": "way/563331516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/570069182",
+        "amenity": "hospital",
+        "name:ar": "مستشفى ابن سينا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7307662,
+          30.293659
+        ]
+      },
+      "id": "node/570069182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/570069186",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ميتشفى شرف",
+        "name:ar": "ميتشفى شرف"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7314033,
+          30.2890918
+        ]
+      },
+      "id": "node/570069186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/570069286",
+        "addr:street": "Abou Bakr El Sedeek",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital",
+        "name:ar": "مستشفى التأمين الصحي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7492561,
+          30.2863681
+        ]
+      },
+      "id": "node/570069286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/579435682",
+        "addr:city": "Mansoura",
+        "addr:street": "كوبرى سندوب",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Mansoura Military Hospital",
+        "name:ar": "مستشفي المنصورة العسكري",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3959659,
+          31.0201804
+        ]
+      },
+      "id": "way/579435682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/579736387",
+        "addr:city": "رأس البر",
+        "addr:street": "شارع ١٠١",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "surgery",
+        "name": "مستشفي جراحات اليوم الواحد",
+        "name:ar": "مستشفي جراحات اليوم الواحد",
+        "name:en": "One day surgery hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.8215334,
+          31.5005609
+        ]
+      },
+      "id": "way/579736387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587301910",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "المستشفى الدولي",
+        "name:ar": "المستشفى الدولي",
+        "name:arz": "المستشفى الدولي",
+        "name:en": "International Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3907121,
+          31.0317905
+        ]
+      },
+      "id": "way/587301910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/589912462",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "التامين الصحي",
+        "name:ar": "التامين الصحي",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2912528,
+          30.6207902
+        ]
+      },
+      "id": "way/589912462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620531300",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "مستشفى التأمين الصحى",
+        "name:ar": "مستشفى التأمين الصحى",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3249588,
+          30.0597191
+        ]
+      },
+      "id": "way/620531300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/626274508",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى العبور",
+        "name:ar": "مستشفى العبور",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9453898,
+          31.1083479
+        ]
+      },
+      "id": "way/626274508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/662158924",
+        "amenity": "hospital",
+        "name": "مستشفى طلبة البؤث",
+        "name:ar": "مستشفى طلبة البؤث",
+        "name:en": "Talabat Al-Boouth Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2771374,
+          30.0579734
+        ]
+      },
+      "id": "node/662158924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/663080305",
+        "alt_name": "مستشفى المقطم",
+        "amenity": "hospital",
+        "name": "مستشفى المقطم",
+        "name:ar": "مستشفى المقطم",
+        "name:en": "Al-Muqattam Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2431749,
+          30.0209068
+        ]
+      },
+      "id": "node/663080305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/665450260",
+        "alt_name": "مستشفى كوبري القبة العسكري",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى كوبري القبة العسكري",
+        "name:ar": "مستشفى كوبري القبة العسكري",
+        "name:en": "Kobry Alkoba Military Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2973393,
+          30.0846029
+        ]
+      },
+      "id": "node/665450260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/678457937",
+        "alt_name": "الميرغني",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الميرغنى",
+        "name:ar": "مستشفى الميرغنى",
+        "name:en": "El Merghany hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3317412,
+          30.0815072
+        ]
+      },
+      "id": "node/678457937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/679277036",
+        "addr:city": "القاهرة",
+        "addr:street": "شارع الحلمية",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الخليفة العام",
+        "name:ar": "مستشفى الخليفة العام",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25373,
+          30.0340352
+        ]
+      },
+      "id": "way/679277036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/687745925",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1951099,
+          30.0664715
+        ]
+      },
+      "id": "node/687745925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/692459632",
+        "addr:street": "شارع بورسعيد",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;surgery",
+        "name": "One Day Surgeries Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2730723,
+          30.0874058
+        ]
+      },
+      "id": "way/692459632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699081142",
+        "amenity": "hospital",
+        "denomination": "coptic_orthodox",
+        "healthcare": "hospital",
+        "name": "مستشفى العذراء الخيرى",
+        "name:ar": "القديسة مريم",
+        "name:en": "Saint Mary Shrine Al-Zeitoun",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3153309,
+          30.104393
+        ]
+      },
+      "id": "way/699081142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/741702670",
+        "addr:housenumber": "5",
+        "addr:street": "أبو بكر الصديق",
+        "alt_name": "مستشفى مصر للطيران",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى مصر للطيران",
+        "name:ar": "مستشفى مصر للطيران",
+        "name:en": "Egypt Air Hospital",
+        "note": "tag name --> arabic",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3489159,
+          30.091848
+        ]
+      },
+      "id": "node/741702670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/768007963",
+        "addr:country": "EG",
+        "addr:district": "الدقى",
+        "addr:district:en": "Al Doqi",
+        "addr:housenumber": "16",
+        "addr:postcode": "12611",
+        "addr:province": "الجيزه",
+        "addr:province:en": "Giza",
+        "addr:street": "شارع عادل حسين رستم",
+        "addr:street:en": "Adel Hussein Rostom Street",
+        "addr:subdistrict": "سليمان جوهر",
+        "addr:subdistrict:en": "Soliman Gohar",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "العيون الدولي",
+        "name:ar": "العيون الدولي",
+        "name:en": "International Eye Hospital",
+        "roof:shape": "flat",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2167638,
+          30.0434378
+        ]
+      },
+      "id": "way/768007963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/768600810",
+        "alt_name": "سمنود",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "int_name": "Samnūd, Samnud, Samannud",
+        "name": "صيدلية د / أسماء عبيد",
+        "name:ar": "صيدلية د / أسماء عبيد",
+        "name:en": "DrAsmaaEbeidPharmacy",
+        "operator": "pharmacy",
+        "operator:type": "public",
+        "population": "65000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.244444,
+          30.962778
+        ]
+      },
+      "id": "node/768600810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769927141",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الشروق",
+        "name:ar": "مستشفى الشروق",
+        "name:en": "El Shorouk Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1992086,
+          30.0685745
+        ]
+      },
+      "id": "way/769927141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769928693",
+        "addr:city": "القاهرة",
+        "amenity": "hospital",
+        "building": "yes",
+        "check_date": "2025-11-17",
+        "healthcare": "hospital",
+        "name": "مستشفى السلام",
+        "name:ar": "مستشفى السلام",
+        "name:en": "Al Salam Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2005798,
+          30.0533672
+        ]
+      },
+      "id": "way/769928693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769939477",
+        "amenity": "hospital",
+        "name": "المركز الطبى المقاولون العرب",
+        "name:ar": "المركز الطبى المقاولون العرب",
+        "name:en": "The Arab Contractors Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2966395,
+          30.0543554
+        ]
+      },
+      "id": "way/769939477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769942974",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "مستشفى السلام الدولى",
+        "name:ar": "مستشفى السلام الدولى",
+        "name:en": "As-Salam International Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4281577,
+          30.00759
+        ]
+      },
+      "id": "way/769942974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769964776",
+        "amenity": "hospital",
+        "check_date": "2025-08-22",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى السلام الدولى",
+        "name:ar": "مستشفى السلام الدولى",
+        "name:en": "As-Salam International Hospital",
+        "opening_hours": "24/7",
+        "operator": "Alameda",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2306064,
+          29.9848384
+        ]
+      },
+      "id": "way/769964776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769964777",
+        "alt_name": "مستشفيات كليوباترا",
+        "alt_name:en": "Cleopatra Hospitals",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى النيل بدراوى",
+        "name:ar": "مستشفى النيل بدراوى",
+        "name:en": "Nile Badrawi Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2311469,
+          29.9826526
+        ]
+      },
+      "id": "way/769964777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769970922",
+        "addr:country": "EG",
+        "addr:district": "مصر الجديده",
+        "addr:district:en": "Heliopolis",
+        "addr:housenumber": "39;41",
+        "addr:postcode": "11736",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع كيلوباترا",
+        "addr:street:en": "Cleopatra Street",
+        "addr:subdistrict": "الماظه",
+        "addr:subdistrict:en": "Almaza",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى كيلوباترا",
+        "name:ar": "مستشفى كيلوباترا",
+        "name:en": "Cleopatra Hospital",
+        "operator": "مستشفيات كليوباترا",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3297409,
+          30.0931494
+        ]
+      },
+      "id": "way/769970922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769986409",
+        "addr:city": "القاهرة",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى الصفا",
+        "name:ar": "مستشفى الصفا",
+        "name:en": "El Safa Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1974516,
+          30.051574
+        ]
+      },
+      "id": "way/769986409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769990230",
+        "addr:country": "EG",
+        "addr:district": "الدقى",
+        "addr:district:en": "Al Doqi",
+        "addr:housenumber": "12",
+        "addr:postcode": "12611",
+        "addr:province": "الجيزه",
+        "addr:province:en": "Giza",
+        "addr:street": "شارع عادل حسين رستم",
+        "addr:street:en": "Adel Hussein Rostom Street",
+        "addr:subdistrict": "سليمان جوهر",
+        "addr:subdistrict:en": "Soliman Gohar",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي مصر الدولي",
+        "name:ar": "مستشفي مصر الدولي",
+        "name:en": "Misr International Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2162619,
+          30.0432619
+        ]
+      },
+      "id": "way/769990230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769992225",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "internet_access": "wlan",
+        "name": "المستشفى السعودي الألماني",
+        "name:ar": "المستشفى السعودي الألماني",
+        "name:en": "Saudi German Hospital",
+        "website": "https://sghcairo.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3842683,
+          30.1331622
+        ]
+      },
+      "id": "way/769992225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/771243782",
+        "addr:city": "مدينة الشيخ زايد",
+        "addr:city:en": "El Sheikh Zayed City",
+        "addr:street": "شارع دكتور علي لطفي",
+        "addr:street:en": "Doctor Ali Lotfy Street",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare:speciality": "General_Surgery;Internal_Medicine;Cardiothoracic_Surgery;neurosurgery;Vascular_Suregery;Laparoscopic_Surgery;gynaecology;ENT;Ophthalmology;cardiology;Gastroenterology;Emergency_Medicine;Anaesthesiology;Physiotherapy;urology;Nephrology;chest;orthopedics",
+        "name": "مستشفى الشيخ زايد التخصصي",
+        "name:ar": "مستشفى الشيخ زايد التخصصي",
+        "name:en": "Sheikh Zayed Specialized Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0034084,
+          30.0321422
+        ]
+      },
+      "id": "way/771243782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/771779533",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الزقازيق العام",
+        "name:ar": "مستشفى الزقازيق العام",
+        "name:en": "General Zagazi Hospital",
+        "opening_hours": "24/7",
+        "operator": "سعد زغلول",
+        "operator:ar": "سعد زغلول",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5093621,
+          30.5929297
+        ]
+      },
+      "id": "way/771779533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/772332951",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الغندور",
+        "name:ar": "مستشفى الغندور",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.758496,
+          30.3011407
+        ]
+      },
+      "id": "way/772332951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/772341435",
+        "amenity": "hospital",
+        "name": "مستشفى دريم",
+        "name:ar": "مستشفى دريم",
+        "name:en": "Dream Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0389679,
+          29.9727441
+        ]
+      },
+      "id": "way/772341435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/772347551",
+        "amenity": "hospital",
+        "name": "مستشفي الصدر",
+        "name:ar": "مستشفي الصدر",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.372905,
+          31.0324891
+        ]
+      },
+      "id": "way/772347551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/772368672",
+        "amenity": "hospital",
+        "name": "المستشفي الوطني للعيون",
+        "name:ar": "المستشفي الوطني للعيون",
+        "name:en": "Al Watany Eye Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3747756,
+          30.0793722
+        ]
+      },
+      "id": "way/772368672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/772537746",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "roof:shape": "flat",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2472954,
+          30.0541877
+        ]
+      },
+      "id": "way/772537746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773024488",
+        "addr:city": "القاهرة الجديدة",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "المستشفى الجوى التخصصى",
+        "name:ar": "المستشفى الجوى التخصصى",
+        "name:en": "Air Force Specialised Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4345662,
+          30.0176227
+        ]
+      },
+      "id": "way/773024488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773724802",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى فلسطين",
+        "name:ar": "مستشفى فلسطين",
+        "name:en": "Palestine Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3391776,
+          30.0848153
+        ]
+      },
+      "id": "way/773724802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/774871347",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "المستشفى القبطي",
+        "name:ar": "المستشفى القبطي",
+        "name:en": "Coptic Hospital",
+        "note": "tag name --> arabic",
+        "wheelchair": "yes",
+        "wikidata": "Q4118568",
+        "wikimedia_commons": "Category:Coptic Hospital (Cairo)",
+        "wikipedia": "en:Coptic Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2526287,
+          30.0631983
+        ]
+      },
+      "id": "way/774871347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775160247",
+        "alt_name": "الندى",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "obstetrics",
+        "name": "مستشفى الندى",
+        "name:ar": "مستشفى الندى",
+        "name:en": "Al-Nada Hospital",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.224837,
+          30.0184211
+        ]
+      },
+      "id": "way/775160247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/776123200",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى النزهة الدولي",
+        "name:ar": "مستشفى النزهة الدولي",
+        "name:en": "Al Nozha International",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3726354,
+          30.1003109
+        ]
+      },
+      "id": "way/776123200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/805590631",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الكردي",
+        "name:ar": "مستشفى الكردي",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7656069,
+          31.1649414
+        ]
+      },
+      "id": "way/805590631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/881717870",
+        "addr:city": "قلين",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى قلين المركزي",
+        "operator": "وزارة الصحة",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8490257,
+          31.0492237
+        ]
+      },
+      "id": "way/881717870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/881717871",
+        "addr:city": "قلين",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "الوحدة",
+        "operator": "وزارة الصحة",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8496713,
+          31.0492889
+        ]
+      },
+      "id": "way/881717871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/903481454",
+        "alt_name": "مستشفى الرماد",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الرماد",
+        "name:ar": "مستشفى الرماد",
+        "name:en": "Al-Ramad Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2156569,
+          30.0152542
+        ]
+      },
+      "id": "node/903481454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/922977537",
+        "addr:postcode": "11734",
+        "addr:street": "شارع الشهيد احمد المنسى",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "مستشفى الاقباط",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3121743,
+          30.1046301
+        ]
+      },
+      "id": "way/922977537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/923552420",
+        "addr:city": "cairo",
+        "addr:housenumber": "4",
+        "addr:postcode": "11774",
+        "addr:street": "شارع الادريسي",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "برج مينا الطبى",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3137281,
+          30.0874514
+        ]
+      },
+      "id": "way/923552420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/952607175",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "مستشفى السنبلاوين العام",
+        "name:ar": "مستشفى السنبلاوين العام",
+        "name:en": "Al Senblawain General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4600721,
+          30.8903058
+        ]
+      },
+      "id": "way/952607175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/952620012",
+        "amenity": "hospital",
+        "name": "مستشفي الشهداء المركزي",
+        "name:ar": "مستشفي الشهداء المركزي",
+        "name:en": "Al Shohada'a Central Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9052236,
+          30.5976607
+        ]
+      },
+      "id": "way/952620012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/952621971",
+        "amenity": "hospital",
+        "name": "مستشفي السنطة المركزي",
+        "name:ar": "مستشفي السنطة المركزي",
+        "name:en": "Al Santah Central Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1267358,
+          30.7322331
+        ]
+      },
+      "id": "way/952621971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/952640649",
+        "amenity": "hospital",
+        "name": "مستشفي أوسيم المركزي",
+        "name:ar": "مستشفي أوسيم المركزي",
+        "name:en": "Osim Central Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1407578,
+          30.1224867
+        ]
+      },
+      "id": "way/952640649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/952642438",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي دار الشفا",
+        "name:ar": "مستشفي دار الشفا",
+        "name:en": "Dar El Shefa Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2787608,
+          30.071468
+        ]
+      },
+      "id": "way/952642438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/952653162",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي اطفال مصر",
+        "name:ar": "مستشفي اطفال مصر",
+        "name:en": "Egypt Children Hospital",
+        "old_name": "مستشفي طلبة أبو الريش",
+        "old_name:en": "Abo Al Reesh Student Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2358472,
+          30.0280975
+        ]
+      },
+      "id": "way/952653162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/982219316",
+        "addr:postcode": "35774",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي التكامل الصحي",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2735687,
+          30.8083317
+        ]
+      },
+      "id": "way/982219316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/984675352",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "community",
+        "name": "مركز صحه زنين الحضري",
+        "name:en": "Zenien urban Health center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1869452,
+          30.0312326
+        ]
+      },
+      "id": "way/984675352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/984675353",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "community",
+        "name": "مركز صحه زنين الحضري",
+        "name:en": "Zenien urban Health center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1870551,
+          30.0311351
+        ]
+      },
+      "id": "way/984675353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/984675354",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "community",
+        "name": "مركز صحه زنين الحضري",
+        "name:en": "Zenien urban Health center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1868301,
+          30.0310749
+        ]
+      },
+      "id": "way/984675354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/984855104",
+        "addr:city": "Cairo",
+        "addr:country": "EG",
+        "addr:district": "اول مدينة نصر",
+        "addr:district:en": "First Nasr City",
+        "addr:housenumber": "16",
+        "addr:postcode": "11765",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع تحسين فرغلي",
+        "addr:street:en": "Tahseen Farghali Street",
+        "addr:subdistrict": "منطقة 1",
+        "addr:subdistrict:en": "Area 1",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "شركة تطبيق حكيمة لخدمات التمريض المنزلي",
+        "operator": "شركة تطبيق حكيمة لخدمات التمريض المنزلي",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3317353,
+          30.06413
+        ]
+      },
+      "id": "way/984855104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/986694825",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "مستشفى بولاق الدكرور العام",
+        "operator": "حكومى",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1988994,
+          30.0279303
+        ]
+      },
+      "id": "way/986694825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1000726106",
+        "addr:city": "Cairo",
+        "addr:housenumber": "341",
+        "addr:street": "PortSaid St.",
+        "amenity": "hospital",
+        "check_date": "2025-03-26",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;obstetrics;gynaecology;orthopaedics;dental_oral_maxillo_facial_surgery;ophthalmology;paediatrics;dermatology;otolaryngology;radiology;urology;surgery;psychiatry",
+        "name": "مستشفى أحمد ماهر التعليمى",
+        "name:ar": "مستشفى أحمد ماهر التعليمى",
+        "name:en": "Ahmed Maher Teaching Hospital",
+        "operator": "General Organization for Teaching Hospitals and Institutes",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2515397,
+          30.0396365
+        ]
+      },
+      "id": "way/1000726106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1003961952",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2154728,
+          30.0543008
+        ]
+      },
+      "id": "way/1003961952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1004010472",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "الهلال الاخضر",
+        "name:ar": "الهلال الاخضر",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.735824,
+          30.2868289
+        ]
+      },
+      "id": "way/1004010472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1057797224",
+        "addr:city": "شباب اكتوبر",
+        "amenity": "hospital",
+        "building:levels": "3",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "height": "12",
+        "name": "مستشفى التأمين الصحى الشامل",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5176026,
+          29.9692548
+        ]
+      },
+      "id": "way/1057797224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1076112442",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "covid;vaccination",
+        "name": "Hommiate Hospital",
+        "name:ar": "مستشفى الحميات",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1807094,
+          30.4732741
+        ]
+      },
+      "id": "way/1076112442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1102478857",
+        "addr:street": "طريق التحرير",
+        "amenity": "hospital",
+        "contact:facebook": "GrifolsEgyptPlasma",
+        "contact:instagram": "grifolsegyptplasma",
+        "healthcare": "hospital",
+        "internet_access": "wlan",
+        "name": "جريفولز ايجيبت ( المشروع القومي لمشتقات البلازما )",
+        "name:en": "Grifols Egypt",
+        "opening_hours": "Su-We 09:00-23:00; Sa 14:00-23:00; Th 14:00-23:00",
+        "website": "https://www.grifolsegyptplasma.com/en/home",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9466464,
+          29.971538
+        ]
+      },
+      "id": "way/1102478857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1121913268",
+        "addr:country": "EG",
+        "addr:district": "الدقى",
+        "addr:district:en": "Al Doqi",
+        "addr:housenumber": "14",
+        "addr:postcode": "12611",
+        "addr:province": "الجيزه",
+        "addr:province:en": "Giza",
+        "addr:street": "شارع اسماعيل أبو فتوح",
+        "addr:street:en": "Ismail Abou Fetouh Street",
+        "addr:subdistrict": "سليمان جوهر",
+        "addr:subdistrict:en": "Soliman Gohar",
+        "alt_name": "الشبرويشي",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "الشبراويشى",
+        "name:ar": "الشبراويشى",
+        "name:en": "El Shabrawishy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.216066,
+          30.0414496
+        ]
+      },
+      "id": "way/1121913268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1134882634",
+        "amenity": "hospital",
+        "building": "yes",
+        "check_date": "2025-04-06",
+        "contact:email": "ahmedsami@nci.edu.eg",
+        "contact:fax": "+202-23644720",
+        "contact:phone": "+202-23689711",
+        "contact:website": "http://www.nci.cu.edu.eg/",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "National Cancer Institute",
+        "name:ar": "المعهد القومي للأورام",
+        "name:de": "Nationales Krebsinstitut",
+        "short_name": "معهد الأورام",
+        "source": "local_knowledge",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2309756,
+          30.0240962
+        ]
+      },
+      "id": "way/1134882634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1140719128",
+        "addr:city": "بركة السبع",
+        "addr:street": "شارع المستشفى",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "emergency",
+        "name": "مستشفي",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0903489,
+          30.6353994
+        ]
+      },
+      "id": "way/1140719128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1140719305",
+        "addr:city": "بركة السبع",
+        "addr:street": "شارع المستشفى",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "الرعاية الصحية",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0909796,
+          30.6356751
+        ]
+      },
+      "id": "way/1140719305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1217194799",
+        "addr:city": "Mokattam",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;dentistry;ophthalmology;orthodontics;intensive;dermatology;physiatry",
+        "name": "9th Street Clinics",
+        "name:ar": "عيادات شارع 9",
+        "operator": "Al Ofok Hospital",
+        "operator:type": "private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.303307,
+          30.011655
+        ]
+      },
+      "id": "way/1217194799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1222266172",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الطلبة",
+        "name:ar": "مستشفى الطلبة",
+        "name:en": "Student Hospital",
+        "operator": "جامعة القاهرة",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2088685,
+          30.0151736
+        ]
+      },
+      "id": "way/1222266172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1225193484",
+        "amenity": "hospital",
+        "name": "مستشفى جامعة ٦ أكتوبر",
+        "name:ar": "مستشفى جامعة ٦ أكتوبر",
+        "name:en": "October 6 University Hospital",
+        "operator": "جامعة ٦ أكتوبر",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9498627,
+          29.9783343
+        ]
+      },
+      "id": "way/1225193484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1225911996",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الأمراض الباطنة",
+        "name:ar": "مستشفى الأمراض الباطنة",
+        "name:en": "Internal Medicine Hospital",
+        "operator": "مستشيفات جامعة القاهرة",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2320599,
+          30.0297115
+        ]
+      },
+      "id": "way/1225911996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1230107731",
+        "amenity": "hospital",
+        "barrier": "fence",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفى القاهرة الجديدة",
+        "name:ar": "مستشفى القاهرة الجديدة",
+        "name:en": "New Cairo Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4362796,
+          29.978997
+        ]
+      },
+      "id": "way/1230107731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1244830060",
+        "amenity": "hospital",
+        "name": "مستشفى الرمد",
+        "name:ar": "مستشفى الرمد",
+        "name:en": "Hospital of Ophthalmology",
+        "operator": "جامعة المنصورة",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3648988,
+          31.0440381
+        ]
+      },
+      "id": "way/1244830060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1284235463",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8342939,
+          30.3996082
+        ]
+      },
+      "id": "way/1284235463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1340172943",
+        "amenity": "hospital",
+        "name": "مستشفى فايد العسكري",
+        "name:en": "Fayed Military Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2990912,
+          30.3192848
+        ]
+      },
+      "id": "way/1340172943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1340811929",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Project Land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5419605,
+          30.0290288
+        ]
+      },
+      "id": "way/1340811929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1375417802",
+        "addr:city": "Cairo",
+        "addr:housenumber": "12",
+        "addr:street": "شارع البراموني",
+        "amenity": "hospital",
+        "check_date": "2025-03-26",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "مسشتفى الجمهورية التعليمى",
+        "name:ar": "مسشتفى الجمهورية التعليمى",
+        "name:en": "El-Gomhoria Teaching Hospital",
+        "operator": "Ahmed Maher Teaching Hospital",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2485448,
+          30.0394247
+        ]
+      },
+      "id": "way/1375417802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1422257968",
+        "amenity": "hospital",
+        "check_date": "2025-11-24",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "intensive;general;emergency",
+        "name": "Alaa Ezzat Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2496786,
+          29.9627679
+        ]
+      },
+      "id": "way/1422257968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1427682320",
+        "amenity": "hospital",
+        "contact:email": "baheya@baheya.org",
+        "contact:facebook": "BaheyaFoundation",
+        "contact:instagram": "baheyafoundation",
+        "contact:twitter": "BaheyaHospital",
+        "email": "baheya@baheya.org",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "breast_cancer;سرطان_الثدي;cancer;سرطان",
+        "name": "مستشفى بهية",
+        "name:ar": "مستشفى بهية",
+        "name:en": "Baheya Hospital",
+        "opening_hours": "09:00-21:00",
+        "phone": "16602",
+        "website": "https://baheya.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0109318,
+          30.0365629
+        ]
+      },
+      "id": "way/1427682320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1428551185",
+        "addr:block": "بلوك 26",
+        "addr:block:en": "Block 26",
+        "addr:country": "EG",
+        "addr:district": "اول مدينة نصر",
+        "addr:district:en": "First Nasr City",
+        "addr:housenumber": "26",
+        "addr:postcode": "11528",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع محمد متولي الشعراوي",
+        "addr:street:en": "Mohamed Metwali Al Shaarawy Street",
+        "addr:subdistrict": "منطقة 10",
+        "addr:subdistrict:en": "Area 10",
+        "amenity": "hospital",
+        "fax": "+202-2357-5161",
+        "healthcare": "hospital",
+        "mobile": "+20120-4477-059;+20114-1664-095",
+        "name": "مستشفي الماسة",
+        "name:ar": "مستشفي الماسة",
+        "name:en": "Al MASSA hospital",
+        "opening_hours": "24/7",
+        "phone": "+202-2357-5162;+202-2357-5163",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3791995,
+          30.0532517
+        ]
+      },
+      "id": "way/1428551185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1438270139",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "منظمه الصحه العالمية",
+        "name:ar": "منظمه الصحه العالمية",
+        "name:en": "World Health Organisation",
+        "operator": "World Health organization"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3473432,
+          30.0637093
+        ]
+      },
+      "id": "node/1438270139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1456875687",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "المعهد القومى للأورام",
+        "name:ar": "المعهد القومى للأورام",
+        "name:en": "National Cancer Institute",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0163173,
+          30.0304955
+        ]
+      },
+      "id": "way/1456875687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1458329371",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى د/ جمال أبو العزايم للطب النفسي وعلاج الإدمان",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4686047,
+          30.0604407
+        ]
+      },
+      "id": "way/1458329371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1470229524",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "pulmonology",
+        "name": "مستشفى الامراض الصدرية بالعباسية",
+        "name:en": "Abassya Chest Diseases Hospital",
+        "operator": "وزارة الصحة والسكان",
+        "operator:type": "government",
+        "wikidata": "Q126009914",
+        "wikipedia": "ar:مستشفى الأمراض الصدرية بالعباسية",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2948785,
+          30.0573841
+        ]
+      },
+      "id": "way/1470229524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1492030036",
+        "addr:country": "EG",
+        "addr:district": "الدقى",
+        "addr:district:en": "Al Doqi",
+        "addr:housenumber": "23",
+        "addr:postcode": "12624",
+        "addr:province": "الجيزه",
+        "addr:province:en": "Giza",
+        "addr:street": "شارع احمد الشاطورى",
+        "addr:street:en": "Ahmed Al Shatoury Street",
+        "addr:subdistrict": "داير الناحيه",
+        "addr:subdistrict:en": "Dayer Al Naheya",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "مستشفي ميلينيوم",
+        "name:ar": "مستشفي ميلينيوم",
+        "name:en": "Millennium Hospital",
+        "opening_hours": "24/7",
+        "phone": "+20 17082;+20 10 0001 7082",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2105778,
+          30.0331056
+        ]
+      },
+      "id": "way/1492030036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1497393443",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Alshorouk Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0039197,
+          30.7964048
+        ]
+      },
+      "id": "way/1497393443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1920589480",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مركز عدن الطبى",
+        "name:ar": "مركز عدن الطبى"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1896206,
+          30.0540358
+        ]
+      },
+      "id": "node/1920589480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1939482580",
+        "addr:housenumber": "232",
+        "addr:street": "شارع صلاح سالم",
+        "amenity": "hospital",
+        "email": "am2073@gmail.com",
+        "healthcare": "hospital",
+        "name": "مكتب شئون العضوية النقابة العامة للبناء والأخشاب",
+        "name:ar": "مستشفى المروة التخصصى",
+        "name:en": "Al-Marwa Specialised Hospital",
+        "opening_hours": "Su-Th 09:00-15:00",
+        "phone": "+201006776555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2092094,
+          29.9972489
+        ]
+      },
+      "id": "node/1939482580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2007861753",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Makka Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4574967,
+          30.8844477
+        ]
+      },
+      "id": "node/2007861753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2268006755",
+        "amenity": "hospital",
+        "name": "مستشفى النور المحمدى",
+        "name:ar": "مستشفى النور المحمدى",
+        "name:en": "Al-Nour Al-Mohammady Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3077521,
+          30.1269386
+        ]
+      },
+      "id": "node/2268006755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2268006756",
+        "amenity": "hospital",
+        "name": "مستشفى الحق",
+        "name:ar": "مستشفى الحق",
+        "name:en": "Al-Haqq Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3139962,
+          30.1333088
+        ]
+      },
+      "id": "node/2268006756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2524330848",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7703995,
+          30.3023768
+        ]
+      },
+      "id": "node/2524330848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2524331007",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى خميس التخصصي",
+        "name:ar": "مستشفى خميس التخصصي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7566488,
+          30.2917256
+        ]
+      },
+      "id": "node/2524331007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2549916507",
+        "amenity": "hospital",
+        "name": "د.محمد البراغى",
+        "name:ar": "د.محمد البراغى",
+        "name:en": "Dr.Mohamed El baraghi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9337571,
+          29.9667244
+        ]
+      },
+      "id": "node/2549916507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2550066152",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "مركز الحصرى الصحى",
+        "name:ar": "مركز الحصرى الصحى",
+        "name:en": "AL Hosary medical department"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9437865,
+          29.9730095
+        ]
+      },
+      "id": "node/2550066152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2621106542",
+        "amenity": "hospital",
+        "name": "Gohar Hospital",
+        "name:ar": "مستشفى جوهار",
+        "name:en": "Gohar Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3955566,
+          30.1459715
+        ]
+      },
+      "id": "node/2621106542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2624645240",
+        "amenity": "hospital",
+        "healthcare:speciality": "diagnostic_radiology",
+        "name": "Al Ahram Scan",
+        "name:ar": "مركز الأهرام للأشعة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9359698,
+          29.9673265
+        ]
+      },
+      "id": "node/2624645240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2722597993",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "عيادة الدكتور عبد الحميد صبح",
+        "name:ar": "عيادة الدكتور عبد الحميد صبح"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2626943,
+          30.5902189
+        ]
+      },
+      "id": "node/2722597993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3118523495",
+        "amenity": "hospital",
+        "building:levels": "4",
+        "healthcare": "hospital",
+        "name": "مستشفى الجزيرة الدولى - السلاب",
+        "name:ar": "مستشفى الجزيرة الدولى - السلاب",
+        "name:en": "Gezeera International Hospital - El Sallab",
+        "phone": "+20 50 2370051",
+        "website": "https://www.elsallabhospital.org/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3656479,
+          31.0453946
+        ]
+      },
+      "id": "node/3118523495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3119668295",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Al-Hekma Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3886277,
+          31.0475408
+        ]
+      },
+      "id": "node/3119668295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3157884695",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي الدعاة",
+        "name:ar": "مستشفي الدعاة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.338523,
+          30.1042297
+        ]
+      },
+      "id": "node/3157884695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3208430197",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Finy hospital",
+        "name:ar": "فيني"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2143358,
+          30.0414944
+        ]
+      },
+      "id": "node/3208430197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3214300154",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى 6 اكتوبر",
+        "name:ar": "مستشفى 6 اكتوبر",
+        "name:en": "6 October Hospiatl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2144598,
+          30.0374677
+        ]
+      },
+      "id": "node/3214300154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3290355573",
+        "amenity": "hospital",
+        "name": "ibarhim shabaan pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3534174,
+          30.5196212
+        ]
+      },
+      "id": "node/3290355573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3395906136",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مركز الطبيب",
+        "name:ar": "مركز الطبيب",
+        "name:en": "Al Tabib Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4224834,
+          30.0039967
+        ]
+      },
+      "id": "node/3395906136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3748661346",
+        "amenity": "hospital",
+        "name": "مستشفى فرسيس",
+        "name:ar": "مستشفى فرسيس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4675882,
+          30.6726112
+        ]
+      },
+      "id": "node/3748661346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3949929966",
+        "amenity": "hospital",
+        "name": "Nasr el Islam Hosiptal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2538297,
+          30.088695
+        ]
+      },
+      "id": "node/3949929966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3966621290",
+        "amenity": "hospital",
+        "name": "مستشفي الواحة",
+        "name:ar": "مستشفي الواحة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2008468,
+          30.0650864
+        ]
+      },
+      "id": "node/3966621290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3966621672",
+        "amenity": "hospital",
+        "name": "مستشفي المبرة",
+        "name:ar": "مستشفي المبرة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4915372,
+          30.5855544
+        ]
+      },
+      "id": "node/3966621672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3966621673",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مجلس طبي وزارة الطيران المدنى",
+        "name:ar": "مجلس طبي وزارة الطيران المدنى"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3887808,
+          30.1183131
+        ]
+      },
+      "id": "node/3966621673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3966622156",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "معهد بحوث امراض الرمد",
+        "name:ar": "معهد بحوث امراض الرمد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2163557,
+          30.0154743
+        ]
+      },
+      "id": "node/3966622156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3966622817",
+        "amenity": "hospital",
+        "name": "عيادة التامين الصحي بالعبور (القليوبية)",
+        "name:ar": "عيادة التامين الصحي بالعبور (القليوبية)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4744552,
+          30.2561237
+        ]
+      },
+      "id": "node/3966622817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3966622857",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "معهد الرمد التذكاري للابحاث",
+        "name:ar": "معهد الرمد التذكاري للابحاث"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2154001,
+          30.0154244
+        ]
+      },
+      "id": "node/3966622857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3979548721",
+        "amenity": "hospital",
+        "name": "مستشفى هيفاء الطبى",
+        "name:ar": "مستشفى هيفاء الطبى"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6736142,
+          31.0968978
+        ]
+      },
+      "id": "node/3979548721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4302150189",
+        "addr:country": "EG",
+        "addr:district": "مصر الجديده",
+        "addr:district:en": "Heliopolis",
+        "addr:housenumber": "13",
+        "addr:postcode": "11774",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع جسر السويس",
+        "addr:street:en": "Gesr Al Suez Street",
+        "addr:subdistrict": "منشيه البكرى",
+        "addr:subdistrict:en": "Mansheyet El Bakry",
+        "amenity": "hospital",
+        "name": "مستشفى منشية البكرى العام",
+        "name:ar": "مستشفى منشية البكرى العام",
+        "name:en": "Manshiet El Bakry General Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3065805,
+          30.0917446
+        ]
+      },
+      "id": "node/4302150189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4338866103",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى جامكا",
+        "name:ar": "مستشفى جامكا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2126874,
+          30.0464766
+        ]
+      },
+      "id": "node/4338866103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362086147",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى العاملين بقطاع البترول",
+        "name:ar": "مستشفى العاملين بقطاع البترول",
+        "name:en": "Petroleum Hospital",
+        "name_1": "مستشفى البترول"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3465042,
+          30.0646977
+        ]
+      },
+      "id": "node/4362086147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362762999",
+        "addr:city": "القاهرة",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الأمل",
+        "name:ar": "مستشفى الأمل"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1912737,
+          30.0553338
+        ]
+      },
+      "id": "node/4362762999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424820093",
+        "addr:street": "السخنة",
+        "amenity": "hospital",
+        "name": "المركز الطبي للبترول",
+        "name:ar": "المركز الطبي للبترول"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5064034,
+          29.9566283
+        ]
+      },
+      "id": "node/4424820093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4507494489",
+        "amenity": "hospital",
+        "name": "مستشفى ابوحماد العام",
+        "name:ar": "مستشفى ابوحماد العام",
+        "name:en": "General hospital in abu hamad",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6781779,
+          30.5409402
+        ]
+      },
+      "id": "node/4507494489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4516041489",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الهرم",
+        "name:ar": "مستشفى الهرم",
+        "name:en": "Al haram hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1500643,
+          29.9903962
+        ]
+      },
+      "id": "node/4516041489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4518397388",
+        "amenity": "hospital",
+        "name": "مستشفى المحلة الكبرى العام",
+        "name:ar": "مستشفى المحلة الكبرى العام"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1759901,
+          30.9766441
+        ]
+      },
+      "id": "node/4518397388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4520377800",
+        "addr:housename": "برج العاصمه (مهندس كمال صالح)",
+        "addr:housenumber": "54",
+        "addr:street": "شارع مستشفى الصدر",
+        "addr:street:en": "Mostashfa Al Sadr Street",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6781111,
+          30.54618
+        ]
+      },
+      "id": "node/4520377800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4535673596",
+        "addr:city": "القاهرة",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "رواد تصحيح الإبصار",
+        "name:ar": "رواد تصحيح الإبصار"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.197121,
+          30.052777
+        ]
+      },
+      "id": "node/4535673596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4542663991",
+        "amenity": "hospital",
+        "name": "مستشفي السادات العام",
+        "name:ar": "مستشفي السادات العام"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5059541,
+          30.367109
+        ]
+      },
+      "id": "node/4542663991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4548173996",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي اطفال مصر- التأمين الصحي",
+        "name:ar": "مستشفي اطفال مصر- التأمين الصحي",
+        "name:en": "All Egypt Children Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2349472,
+          30.0292907
+        ]
+      },
+      "id": "node/4548173996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4557847093",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى شاكر",
+        "name:ar": "مستشفى شاكر",
+        "name:en": "Shaker Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3352883,
+          30.0941921
+        ]
+      },
+      "id": "node/4557847093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4561090493",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي جمال ابو العزايم",
+        "name:ar": "مستشفي جمال ابو العزايم"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.330529,
+          30.0559906
+        ]
+      },
+      "id": "node/4561090493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4587257690",
+        "addr:street": "كورنيش النيل",
+        "amenity": "hospital",
+        "check_date": "2025-09-02",
+        "healthcare": "hospital",
+        "name": "مستشفى المعادى ق.م",
+        "name:ar": "مستشفى المعادى ق.م",
+        "name:en": "Maadi Hosp. A.F",
+        "opening_hours": "Sa-Th 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.24174,
+          29.9674551
+        ]
+      },
+      "id": "node/4587257690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4615939994",
+        "amenity": "hospital",
+        "name:en": "المركز الطبي ٢"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.491809,
+          30.0593917
+        ]
+      },
+      "id": "node/4615939994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4643156891",
+        "amenity": "hospital",
+        "name": "مستشفي الحلمية العسكري",
+        "name:ar": "مستشفي الحلمية العسكري",
+        "name:en": "El helmya hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3181568,
+          30.1130399
+        ]
+      },
+      "id": "node/4643156891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4643646691",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى بورفواد",
+        "name:ar": "مستشفى بورفواد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.3202676,
+          31.2440232
+        ]
+      },
+      "id": "node/4643646691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4658648390",
+        "amenity": "hospital",
+        "name": "عيادة المبرة الشاملة",
+        "name:ar": "عيادة المبرة الشاملة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4909946,
+          30.5872137
+        ]
+      },
+      "id": "node/4658648390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4682221091",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "دكتور بدران",
+        "name:ar": "دكتور بدران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2079311,
+          30.0486115
+        ]
+      },
+      "id": "node/4682221091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4693001189",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي الهرم",
+        "name:ar": "مستشفي الهرم",
+        "name:en": "Al Haram Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1506313,
+          29.9907225
+        ]
+      },
+      "id": "node/4693001189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4733980424",
+        "addr:street": "طريق النصر",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مركز طبي مساكن شيراتون",
+        "name:ar": "مركز طبي مساكن شيراتون",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3826141,
+          30.0930561
+        ]
+      },
+      "id": "node/4733980424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4754465334",
+        "amenity": "hospital",
+        "name": "مستشفى التكامل بميت محسن",
+        "name:ar": "مستشفى التكامل بميت محسن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2728416,
+          30.7352406
+        ]
+      },
+      "id": "node/4754465334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4765039480",
+        "addr:city": "المنصورة",
+        "addr:housenumber": "195",
+        "addr:street": "شارع الجمهورية",
+        "amenity": "hospital",
+        "description": "Outpatient Clinic",
+        "elevator": "yes",
+        "email": "mhegazy@mans.edu.eg",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "level": "5",
+        "name": "عيادة أ.د. محمد أبوحجازى لطب المخ والأعصاب Prof.Dr. Mohammad Abu-Hegazy, Neurology Consultant",
+        "name:ar": "عيادة أ.د. محمد أبوحجازى لطب المخ والأعصاب Prof.Dr. Mohammad Abu-Hegazy, Neurology Consultant",
+        "operator": "Prof. Dr. Mohammad Abu-Hegazy",
+        "phone": "+20502227981;+201063576123",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3844462,
+          31.0474963
+        ]
+      },
+      "id": "node/4765039480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4787216421",
+        "amenity": "hospital",
+        "name": "مستشفي موده عيون",
+        "name:ar": "مستشفي موده عيون"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0152798,
+          30.5606982
+        ]
+      },
+      "id": "node/4787216421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4829303623",
+        "addr:street": "شارع البطل أحمد عبد العزيز",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "المصل واللقاح",
+        "name:ar": "المصل واللقاح",
+        "name:en": "Al massl WA Liqah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2112053,
+          30.0507952
+        ]
+      },
+      "id": "node/4829303623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4914746727",
+        "addr:street": "شارع بين المدارس",
+        "amenity": "hospital",
+        "internet_access": "wlan",
+        "name": "مستشفي الفتح الخلفاوي",
+        "name:ar": "مستشفي الفتح الخلفاوي",
+        "name:en": "Elfath hospital elkhalafawi",
+        "phone": "0222040416"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2492731,
+          30.0983691
+        ]
+      },
+      "id": "node/4914746727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4924166623",
+        "amenity": "hospital",
+        "name": "مستشفي بتروجاس",
+        "name:ar": "مستشفي بتروجاس",
+        "name:en": "Petrogas Hispital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3334341,
+          30.1046866
+        ]
+      },
+      "id": "node/4924166623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4927950621",
+        "amenity": "hospital",
+        "name": "مستشفي بتروجاس - قطاع البترول",
+        "name:ar": "مستشفي بتروجاس - قطاع البترول",
+        "name:en": "Petrogas Hospital - Petrol Section"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3311765,
+          30.103598
+        ]
+      },
+      "id": "node/4927950621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5032097923",
+        "addr:city": "القاهرة",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "clean vision laser centre",
+        "name:ar": "clean vision laser centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2040393,
+          30.0545581
+        ]
+      },
+      "id": "node/5032097923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5056209254",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9926418,
+          30.7807215
+        ]
+      },
+      "id": "node/5056209254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5105686233",
+        "amenity": "hospital",
+        "name": "صيدلية دكتور عبد اللطيف",
+        "name:ar": "صيدلية دكتور عبد اللطيف",
+        "name:en": "Dr. Abd el lateef farmecy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2974113,
+          30.1244776
+        ]
+      },
+      "id": "node/5105686233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5122232721",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الكبد د يس عبد الغفار الخيرية",
+        "name:ar": "مستشفى الكبد د يس عبد الغفار الخيرية",
+        "name:en": "Yassin Abdulghaffar Hepatology Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.346945,
+          30.0648509
+        ]
+      },
+      "id": "node/5122232721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5134665947",
+        "amenity": "hospital",
+        "name": "مركز طبي الحى الثامن",
+        "name:ar": "مركز طبي الحى الثامن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.35774,
+          30.0561602
+        ]
+      },
+      "id": "node/5134665947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5134666024",
+        "amenity": "hospital",
+        "name": "ايجيكير",
+        "name:ar": "ايجيكير"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3603878,
+          30.0597161
+        ]
+      },
+      "id": "node/5134666024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5134666532",
+        "amenity": "hospital",
+        "name": "مركز طبي الحى الثامن",
+        "name:ar": "مركز طبي الحى الثامن"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3576391,
+          30.0553351
+        ]
+      },
+      "id": "node/5134666532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5140221524",
+        "addr:street": "77",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الريان",
+        "name:ar": "مستشفى الريان",
+        "name:en": "alRayan Hospital",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.264262,
+          29.967548
+        ]
+      },
+      "id": "node/5140221524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5147555621",
+        "addr:district:en": "Heliopolis",
+        "addr:housenumber": "67",
+        "addr:street:ar": "شارع نخله المطيعي",
+        "addr:street:en": "Nakhla Al Matei",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:ar": "مستشفى المستقبل التخصصي",
+        "name:en": "Future Specialist Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3453964,
+          30.0991342
+        ]
+      },
+      "id": "node/5147555621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5186532750",
+        "addr:city": "القاهرة",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mahmoud Eye Surgery Centre",
+        "name:en": "Mahmoud Eye Surgery Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2154842,
+          30.0657467
+        ]
+      },
+      "id": "node/5186532750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5314820424",
+        "addr:street": "الميرغنى",
+        "amenity": "hospital",
+        "name": "المشرق للعيون",
+        "name:ar": "المشرق للعيون"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3309778,
+          30.0850693
+        ]
+      },
+      "id": "node/5314820424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5314820724",
+        "addr:street": "الحجاز",
+        "amenity": "hospital",
+        "name": "مركز الدكتور محمد حامد للعيون",
+        "name:ar": "مركز الدكتور محمد حامد للعيون"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3266103,
+          30.1026758
+        ]
+      },
+      "id": "node/5314820724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350940121",
+        "addr:street": "الطريق الدائرى",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى البنك الاهلي",
+        "name:ar": "مستشفى البنك الاهلي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.345959,
+          29.9825257
+        ]
+      },
+      "id": "node/5350940121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5383244422",
+        "amenity": "hospital",
+        "name:en": "Golf Memorial Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3372837,
+          30.0790241
+        ]
+      },
+      "id": "node/5383244422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5417944724",
+        "addr:street": "gamal Abd elnaser",
+        "amenity": "hospital",
+        "name": "مركز 73 متر",
+        "name:ar": "مركز 73 متر",
+        "opening_hours": "Sa-Th 09:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6579092,
+          30.149718
+        ]
+      },
+      "id": "node/5417944724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5475557322",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "ophthalmology",
+        "name": "مغربي للعيون",
+        "name:ar": "مغربي للعيون",
+        "name:en": "Magrabi Eye Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2513977,
+          30.0232965
+        ]
+      },
+      "id": "node/5475557322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5503724260",
+        "addr:housenumber": "3",
+        "addr:street": "56 Street",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "veterinarian;vet",
+        "name": "GERMAN VETERINARY HOSPITAL EGYPT",
+        "operator": "DR.MOHAMED MAGDI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.011445,
+          30.0335965
+        ]
+      },
+      "id": "node/5503724260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5551667834",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ras El Bar Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.8357253,
+          31.5159327
+        ]
+      },
+      "id": "node/5551667834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5551680466",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي الدلتا",
+        "name:ar": "مستشفي الدلتا",
+        "name:en": "Delta Hosbital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.8265419,
+          31.5007282
+        ]
+      },
+      "id": "node/5551680466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5572455024",
+        "amenity": "hospital",
+        "name": "مستشفى الغندور بلبيس",
+        "name:ar": "مستشفى الغندور بلبيس",
+        "name:en": "Ghandour hospital Belbis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5719934,
+          30.4221577
+        ]
+      },
+      "id": "node/5572455024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5587465366",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "infant",
+        "name": "Tabarak Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.39453,
+          31.0457302
+        ]
+      },
+      "id": "node/5587465366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5628663421",
+        "addr:street": "شارع المقريزى",
+        "amenity": "hospital",
+        "name": "برج الأطباء",
+        "name:ar": "برج الأطباء"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3079294,
+          30.0905778
+        ]
+      },
+      "id": "node/5628663421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5734327542",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "physiotherapy",
+        "name": "مركز كيوان للعلاج الطبيعي والتخسيس",
+        "name:ar": "مركز كيوان للعلاج الطبيعي والتخسيس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.822604,
+          31.4071405
+        ]
+      },
+      "id": "node/5734327542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5769888882",
+        "addr:city": "Sheikh Zayed City",
+        "addr:housenumber": "Downtown, Left building, 2nd Floor",
+        "addr:street": "Dr Atef Sedky",
+        "amenity": "hospital",
+        "email": "Seniorsdentalclinic@gmail.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dentistry;prosthodontics;implantology;orthodontics",
+        "name": "Seniors Dental Clinic",
+        "operator": "Dr Bahaa, Dr Khashab & Dr. Morsi",
+        "phone": "002 01000751172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0008777,
+          30.0302505
+        ]
+      },
+      "id": "node/5769888882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5776366012",
+        "addr:housenumber": "12",
+        "addr:street": "جسر النيل",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "مستشفي مسجد وصبف",
+        "name:ar": "مستشفي مسجد وصبف",
+        "note": "مستشفي مسجد وصبف",
+        "operator": "مستشفي مسجد وصبف"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2668872,
+          30.6414801
+        ]
+      },
+      "id": "node/5776366012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5817986010",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "مستشفى",
+        "name:ar": "مستشفى",
+        "name:en": "Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4181409,
+          30.0147462
+        ]
+      },
+      "id": "node/5817986010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5900240797",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "التأمين الصحي",
+        "name:ar": "التأمين الصحي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3783093,
+          31.0427801
+        ]
+      },
+      "id": "node/5900240797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5984828885",
+        "amenity": "hospital",
+        "name": "المستشفى العسكرى دمياط الجديده",
+        "name:ar": "المستشفى العسكرى دمياط الجديده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6920654,
+          31.440234
+        ]
+      },
+      "id": "node/5984828885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6092176485",
+        "addr:street": "500",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "مستشفى جراحات اليوم الواحد بالمعادي الجديدة",
+        "name:ar": "مستشفى جراحات اليوم الواحد بالمعادي الجديدة",
+        "name:en": "one day surgries hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2772995,
+          29.9876238
+        ]
+      },
+      "id": "node/6092176485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6176570230",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "American Hospotal",
+        "name:ar": "المستشفى الأمريكى"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3779264,
+          30.1033833
+        ]
+      },
+      "id": "node/6176570230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6263853464",
+        "amenity": "hospital",
+        "name": "الوحدة الصحية بجمصة",
+        "name:ar": "الوحدة الصحية بجمصة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5589591,
+          31.4355738
+        ]
+      },
+      "id": "node/6263853464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6373641081",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "الوحدة الصحية",
+        "name:ar": "الوحدة الصحية"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6875548,
+          30.781246
+        ]
+      },
+      "id": "node/6373641081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6500318660",
+        "addr:street": "شارع بورسعيد",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "surgery;general",
+        "name": "One Day Surgeries Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2731182,
+          30.0874718
+        ]
+      },
+      "id": "node/6500318660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6582032777",
+        "addr:country": "EG",
+        "addr:district": "المقطم",
+        "addr:district:en": "El Mukkatam",
+        "addr:housenumber": "38",
+        "addr:postcode": "11571",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع 17",
+        "addr:street:en": "Street 17",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2917528,
+          30.0160045
+        ]
+      },
+      "id": "node/6582032777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6586989894",
+        "addr:country": "EG",
+        "addr:district": "الساحل",
+        "addr:district:en": "El Sahel",
+        "addr:housenumber": "5",
+        "addr:postcode": "11637",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع الشيخ نصر الهوريني",
+        "addr:street:en": "Al Sheikh Nasr Al Horieny Street",
+        "addr:subdistrict": "شريف",
+        "addr:subdistrict:en": "Sherif",
+        "amenity": "hospital",
+        "contact:facebook": "%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89-%D8%A7%D9%84%D8%A8%D8%AA%D9%88%D9%84-El-Batol-Hospital-751083391720702",
+        "email": "elbatolhospital@gmail.com",
+        "name": "مستشفى البتول",
+        "name:en": "El Batol Hospital",
+        "opening_hours": "24/7",
+        "phone": "01276604770",
+        "website": "http://elbatolhospital.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2490967,
+          30.0947545
+        ]
+      },
+      "id": "node/6586989894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6595817693",
+        "addr:country": "EG",
+        "addr:district": "البساتين",
+        "addr:district:en": "Al Basatine",
+        "addr:housenumber": "4",
+        "addr:neighbourhood": "تقسيم اللاسلكي",
+        "addr:neighbourhood:en": "Taksim Al Laslky",
+        "addr:postcode": "11742",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع سيد عنبر",
+        "addr:street:en": "Sayed Anbr Street",
+        "addr:subdistrict": "المعادى الجديده",
+        "addr:subdistrict:en": "El Maadi El Gadida",
+        "addr:unit": "6C",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "El Nakhel Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2817941,
+          29.9734067
+        ]
+      },
+      "id": "node/6595817693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6644423452",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Sekem Medical Centre",
+        "operator": "Sekem Development Foundation",
+        "operator:type": "private_non_profit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6355301,
+          30.417604
+        ]
+      },
+      "id": "node/6644423452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6743975794",
+        "addr:city": "cairo",
+        "addr:housenumber": "76",
+        "addr:street": "شارع احمد عصمت",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Elsalam Hospital مستشفى السلام",
+        "name:ar": "Elsalam Hospital مستشفى السلام",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3274532,
+          30.127331
+        ]
+      },
+      "id": "node/6743975794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6795952385",
+        "addr:street": "شارع الإسكندرية",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستش",
+        "name:ar": "مستشفى الرحمة التخصصي",
+        "name:en": "Al Rahma specialized Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3312422,
+          30.0983618
+        ]
+      },
+      "id": "node/6795952385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6970489318",
+        "addr:city": "حي عين شمس",
+        "addr:housenumber": "7",
+        "addr:postcode": "11782",
+        "addr:street": "شارع احمد عصمت",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dentist",
+        "name": "Bright dental center",
+        "operator": "Dr/Amal Khalil",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3207353,
+          30.1292933
+        ]
+      },
+      "id": "node/6970489318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7022378617",
+        "amenity": "hospital",
+        "email": "alglaa5000@gmail.com",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Alglaa Pharmacy portsaid - صيدلية الجلاء بورسعيد",
+        "name:ar": "Alglaa Pharmacy portsaid - صيدلية الجلاء بورسعيد",
+        "phone": "002-066-3666912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2703428,
+          31.2675342
+        ]
+      },
+      "id": "node/7022378617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7464934905",
+        "addr:country": "EG",
+        "addr:district": "شبين الكوم",
+        "addr:district:en": "Shebin Al Koum",
+        "addr:housenumber": "6",
+        "addr:postcode": "32515",
+        "addr:province": "المنوفية",
+        "addr:province:en": "Al Menofia",
+        "addr:street": "درب سعفان",
+        "addr:street:en": "Darb Saafan",
+        "addr:subdistrict": "حسن عامر القماش",
+        "addr:subdistrict:en": "Hassn Amer Al Qimash",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;clinical_pathology;ophthalmology;gynaecology;orthopaedics;dermatology;psychiatry;dentist;internal;phsiotherapy",
+        "name": "مستوصف السيدة العذراء",
+        "name:ar": "مستوصف السيدة العذراء",
+        "operator": "مطرانية كرسى المنوفية",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0068038,
+          30.5525503
+        ]
+      },
+      "id": "node/7464934905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7467342543",
+        "addr:country": "EG",
+        "addr:district": "اول كفر الشيخ",
+        "addr:district:en": "First Kafr Al Sheikh",
+        "addr:housenumber": "6R",
+        "addr:postcode": "33511",
+        "addr:province": "كفر الشيخ",
+        "addr:province:en": "Kafr Al Sheikh",
+        "addr:street": "شارع فريد ندا",
+        "addr:street:en": "Farid Nada Street",
+        "addr:subdistrict": "على مصطفى الزواوي",
+        "addr:subdistrict:en": "Ali Moustafa Al Zwawy",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dentist",
+        "name": "bakr dental clinic",
+        "operator": "د.ابوبكر خضر",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9341442,
+          31.1154724
+        ]
+      },
+      "id": "node/7467342543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7635900880",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Pharmancy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.315031,
+          29.9811655
+        ]
+      },
+      "id": "node/7635900880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7968247693",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "الوحدة الصحية بطناش",
+        "name:ar": "الوحدة الصحية بطناش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1922102,
+          30.1241237
+        ]
+      },
+      "id": "node/7968247693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8343379230",
+        "addr:city": "القاهرة",
+        "addr:street": "شارع عبد الخالق ثروت",
+        "amenity": "hospital",
+        "check_date": "2026-03-19",
+        "healthcare": "hospital",
+        "name": "مستشفى هيئة النقل العام",
+        "operator": "هيئة النقل العام - مصر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2383746,
+          30.051386
+        ]
+      },
+      "id": "node/8343379230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8405405096",
+        "addr:city": "مدينة الشيخ زايد",
+        "addr:city:en": "El Sheikh Zayed City",
+        "addr:country": "EG",
+        "addr:district": "منطقة خدمات",
+        "addr:district:en": "Services Area",
+        "addr:housenumber": "27",
+        "addr:postcode": "12588",
+        "addr:province": "الجيزة",
+        "addr:province:en": "El Giza",
+        "addr:street": "شارع الزهور",
+        "addr:street:en": "Al Zohor Street",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rofayda Maternity Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0067546,
+          30.0218222
+        ]
+      },
+      "id": "node/8405405096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8411329877",
+        "addr:country": "EG",
+        "addr:district": "الزيتون القبليه",
+        "addr:district:en": "Al Zaitoun Al Qibliyya",
+        "addr:housenumber": "4",
+        "addr:postcode": "11712",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع الخبير",
+        "addr:street:en": "Al Khabery Street",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الحياة التخصصى"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2990484,
+          30.0883955
+        ]
+      },
+      "id": "node/8411329877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8496848667",
+        "addr:country": "EG",
+        "addr:district": "الهايكستب",
+        "addr:district:en": "El Haykesteb",
+        "addr:housenumber": "5",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع احمد عبد النبى",
+        "addr:street:en": "Ahmed Abd Al Naby Street",
+        "addr:subdistrict": "النزهه الجديدة",
+        "addr:subdistrict:en": "New Al Nozha",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى دكتور عادل صادق لعلاج الامراض النفسية و الإدمان",
+        "name:en": "Doctor Adel Sadek Hospital for the treatment of mental illnesses and addictions"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3664536,
+          30.1218731
+        ]
+      },
+      "id": "node/8496848667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8764103655",
+        "amenity": "hospital",
+        "description": "برنامج متكامل لمتابعة الأطفال حديثى الولادة مقدم من مؤسسة شبكة الأطفال حديثى الولادة المصرية",
+        "healthcare": "clinic",
+        "name": "برنامج متابعة وليدك (2) - العيادات التخصصية"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3655781,
+          31.0442384
+        ]
+      },
+      "id": "node/8764103655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8819019261",
+        "addr:city": "المقاطع",
+        "addr:street": "طريق المقاطع, مناوهله",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "الوحدة الصحية بقرية المقاطع"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0724737,
+          30.4702651
+        ]
+      },
+      "id": "node/8819019261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9509648007",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "دار السلام للأورام (هرمل)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2289619,
+          30.0125466
+        ]
+      },
+      "id": "node/9509648007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9568706448",
+        "addr:street": "شارع الملك فيصل",
+        "amenity": "hospital",
+        "name": "مستشفى الجابري"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1514353,
+          29.9956129
+        ]
+      },
+      "id": "node/9568706448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9612404216",
+        "addr:country": "EG",
+        "addr:district": "مصر الجديده",
+        "addr:district:en": "Heliopolis",
+        "addr:housename": "Al Khalifa Al Rashideen Specialized Hospital",
+        "addr:housenumber": "1",
+        "addr:postcode": "11757",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع السباق",
+        "addr:street:en": "Al Sebaq Street",
+        "addr:subdistrict": "البستان",
+        "addr:subdistrict:en": "El Bostan",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3237646,
+          30.1017279
+        ]
+      },
+      "id": "node/9612404216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9651950237",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الحبيب التخصصي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1545246,
+          29.9967716
+        ]
+      },
+      "id": "node/9651950237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9670857598",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى صدر المحلة",
+        "name:en": "Chest Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1498471,
+          30.9532282
+        ]
+      },
+      "id": "node/9670857598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9697106717",
+        "addr:housenumber": "3",
+        "addr:street": "شارع منيه السيرج",
+        "amenity": "hospital",
+        "email": "info@alsafwahospital.net",
+        "healthcare": "hospital",
+        "name": "مستشفى الصفوة",
+        "name:en": "Alsafwa Hospital",
+        "opening_hours": "24/7",
+        "phone": "22042650;24302001;01099926026",
+        "website": "https://www.alsafwahospital.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2459649,
+          30.0926606
+        ]
+      },
+      "id": "node/9697106717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9750285595",
+        "addr:city": "Future City, Cairo",
+        "addr:street": "28th U",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "obstetrics;gynaecology;fertility",
+        "name": "Dr. Hani Allawy Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5533044,
+          30.1636403
+        ]
+      },
+      "id": "node/9750285595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9762746673",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الرحاب التخصصي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.163256,
+          29.9926236
+        ]
+      },
+      "id": "node/9762746673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9764636806",
+        "addr:country": "EG",
+        "addr:district": "مصر الجديده",
+        "addr:district:en": "Heliopolis",
+        "addr:housenumber": "2",
+        "addr:postcode": "11757",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "ميدان الجامع",
+        "addr:street:en": "The Mosque Square",
+        "addr:subdistrict": "البستان",
+        "addr:subdistrict:en": "El Bostan",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي جمال الدين الافغاني",
+        "name:ar": "مستشفي جمال الدين الافغاني",
+        "name:en": "Jamal Al Din Afghani Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3284172,
+          30.0965609
+        ]
+      },
+      "id": "node/9764636806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9809753775",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى بهيه لعلاج سرطان الثدي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1866866,
+          30.0047923
+        ]
+      },
+      "id": "node/9809753775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9850700146",
+        "addr:country": "EG",
+        "addr:district": "مصر الجديده",
+        "addr:district:en": "Heliopolis",
+        "addr:housenumber": "1",
+        "addr:postcode": "11757",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع عثمان بن عفان",
+        "addr:street:en": "Othman Ibn Affan Street",
+        "addr:subdistrict": "البستان",
+        "addr:subdistrict:en": "El Bostan",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي سانت ريتا",
+        "name:en": "Sant Rita Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3269916,
+          30.093916
+        ]
+      },
+      "id": "node/9850700146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9974960728",
+        "amenity": "hospital",
+        "name": "home"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0217183,
+          30.5499895
+        ]
+      },
+      "id": "node/9974960728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9974961422",
+        "amenity": "hospital",
+        "name": "مستشفى الحلميه العسكرى"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3182019,
+          30.1139213
+        ]
+      },
+      "id": "node/9974961422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10033391519",
+        "addr:housenumber": "42 km",
+        "addr:street": "طريق القاهرة, الاسماعيليه الصحراوي",
+        "amenity": "hospital",
+        "name": "المركز الطبى العالمى",
+        "name:en": "International Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6582147,
+          30.1932457
+        ]
+      },
+      "id": "node/10033391519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10090674554",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7928647,
+          30.7307718
+        ]
+      },
+      "id": "node/10090674554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10207020117",
+        "amenity": "hospital",
+        "name": "مستشفى فريد حبيب"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4826926,
+          30.2221383
+        ]
+      },
+      "id": "node/10207020117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10280525304",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مركز الدرة التخصصي للعيون",
+        "name:en": "Durrah Eye Center",
+        "operator": "مركز الدرة التخصصي للعيون",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.332632,
+          30.0807161
+        ]
+      },
+      "id": "node/10280525304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10310788409",
+        "amenity": "hospital",
+        "email": "badr_hospital@outlook.com",
+        "name": "مستشفي بدر الجامعي - جامعة حلوان",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7233948,
+          30.1451471
+        ]
+      },
+      "id": "node/10310788409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10651046978",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "الوحدة الصحية بالعصافرة",
+        "name:en": "Al-Asafra Health Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.017292,
+          31.1715054
+        ]
+      },
+      "id": "node/10651046978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10749393305",
+        "addr:city": "شنتنا الحجر",
+        "addr:postcode": "32567",
+        "addr:street": "شارع تلا",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "tropical",
+        "name": "Shintina Alhajar Tropical",
+        "operator": "حميات شنتنا الحجر",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0534087,
+          30.6481232
+        ]
+      },
+      "id": "node/10749393305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10784198106",
+        "addr:street": "شارع عبد المنعم رياض",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى أكتوبر كلينيك",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9843773,
+          29.9837245
+        ]
+      },
+      "id": "node/10784198106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11027293553",
+        "addr:country": "EG",
+        "addr:district": "الهايكستب",
+        "addr:district:en": "El Haykesteb",
+        "addr:housenumber": "16",
+        "addr:postcode": "11843",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع النصر",
+        "addr:street:en": "Al Nasr Street",
+        "addr:subdistrict": "النزهه الجديدة",
+        "addr:subdistrict:en": "New Al Nozha",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى عين الحياة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3724291,
+          30.1223025
+        ]
+      },
+      "id": "node/11027293553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11050738962",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "الوحدة الصحية بقرية دروة",
+        "operator": "Family medicine unit",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3623926,
+          30.8663667
+        ]
+      },
+      "id": "node/11050738962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11210315591",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "university hospital",
+        "name:ar": "مستشفي الجامعة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7320924,
+          30.3238623
+        ]
+      },
+      "id": "node/11210315591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11257108018",
+        "amenity": "hospital",
+        "check_date": "2023-10-11",
+        "healthcare": "hospital",
+        "name": "Maadi Maternity Hospital (Hossam Shalaby)",
+        "name:ar": "مستشفى حسام شلبي للولادة",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2631753,
+          29.9611824
+        ]
+      },
+      "id": "node/11257108018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11278273768",
+        "addr:country": "EG",
+        "addr:district": "المقطم",
+        "addr:district:en": "El Mukkatam",
+        "addr:housenumber": "1",
+        "addr:postcode": "11571",
+        "addr:province": "القاهرة",
+        "addr:province:en": "Cairo",
+        "addr:street": "شارع جامع القدس",
+        "addr:street:en": "Al Qods Mosque Street",
+        "addr:subdistrict": "الشرق للتأمين",
+        "addr:subdistrict:en": "East Insurance",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;ophthalmology;dentist;dermatology;osteopathy;physiotherapy",
+        "name": "9th Street Clinic",
+        "name:ar": "عيادات شارع 9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3031698,
+          30.0116999
+        ]
+      },
+      "id": "node/11278273768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11366207025",
+        "addr:city": "cairo",
+        "addr:housenumber": "12",
+        "addr:street": "بيتشو أمريكان سيتى - زهراء المعادى - أمام تيجان كمباوند بوابة 1",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Pearl Hospitals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3334192,
+          29.9740094
+        ]
+      },
+      "id": "node/11366207025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11959610699",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الجابري"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1917095,
+          30.0104051
+        ]
+      },
+      "id": "node/11959610699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11959624386",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الجزيرة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1923522,
+          30.0101478
+        ]
+      },
+      "id": "node/11959624386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12205946881",
+        "amenity": "hospital",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Kaissar Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6267694,
+          30.1517332
+        ]
+      },
+      "id": "node/12205946881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12205946883",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;blood_check",
+        "name": "Alfa Labs",
+        "name:ar": "معمل ألفا",
+        "name:en": "Alfa Labs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6267945,
+          30.1515997
+        ]
+      },
+      "id": "node/12205946883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12278326902",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى رشيد العام",
+        "name:ar": "مستشفى رشيد العام",
+        "name:de": "Allgemeines Krankenhaus",
+        "name:en": "Rashid General Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4193311,
+          31.4069122
+        ]
+      },
+      "id": "node/12278326902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12402732939",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Project Land"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5426569,
+          30.0294752
+        ]
+      },
+      "id": "node/12402732939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12887250139",
+        "addr:district:ar": "النزهة الجديدة",
+        "addr:housenumber": "38",
+        "addr:street": "شارع جوزيف تيتو",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مركز طبي النزهة الجديدة",
+        "name:ar": "مركز طبي النزهة الجديدة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3721061,
+          30.1219136
+        ]
+      },
+      "id": "node/12887250139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12895489801",
+        "addr:street": "شارع حسن افلاطون",
+        "amenity": "hospital",
+        "name": "مستشفى عبدالقادر فهمي",
+        "name:en": "Abd Al-Kader Fahmy hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3444783,
+          30.0784848
+        ]
+      },
+      "id": "node/12895489801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952190988",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "andrology",
+        "name": "عيادة الذكورة",
+        "operator": "kasralainy hospital outpatient clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2284755,
+          30.0316047
+        ]
+      },
+      "id": "node/12952190988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952190989",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "physiotherapy",
+        "name": "عيادة العلاج الطبيغى",
+        "operator": "kasralainy hospital outpatient clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.228866,
+          30.0317477
+        ]
+      },
+      "id": "node/12952190989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952190990",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dermatology",
+        "name": "عيادة الجلدية",
+        "operator": "kasralainy hospital outpatient clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2285843,
+          30.0317811
+        ]
+      },
+      "id": "node/12952190990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952190991",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "diabetology",
+        "name": "عيادة السكر و عيادة الغدد و عيادة السمنة و التغذية",
+        "operator": "kasralainy hospital outpatient clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2290907,
+          30.0320338
+        ]
+      },
+      "id": "node/12952190991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952190992",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "ophthalmology",
+        "name": "عيادة الرمد",
+        "operator": "kasralainy hospital outpatient clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2286432,
+          30.0319818
+        ]
+      },
+      "id": "node/12952190992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952212926",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "mosque",
+        "name": "مسجد كلية الطب",
+        "operator": "kasralainy hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2291704,
+          30.0311244
+        ]
+      },
+      "id": "node/12952212926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952212932",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "surgery",
+        "name": "عيادة الجراحة",
+        "operator": "kasralainy hospital outpatient clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2284692,
+          30.0318111
+        ]
+      },
+      "id": "node/12952212932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952212933",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "surgery",
+        "name": "عيادة الجراحة",
+        "operator": "kasralainy hospital outpatient clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2282933,
+          30.0318742
+        ]
+      },
+      "id": "node/12952212933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952212934",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "internal",
+        "name": "عيادة الباطنة و عيادة جراحة مخ و اعصاب",
+        "operator": "kasralainy hospital outpatient clinics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2281655,
+          30.0319308
+        ]
+      },
+      "id": "node/12952212934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952409489",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "orthopaedics",
+        "name": "عيادة العظام",
+        "operator": "kasralainy hospital outpatient clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.227904,
+          30.0320253
+        ]
+      },
+      "id": "node/12952409489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952409490",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "internal",
+        "name": "عيادة الباطنة و القلب و المتوطنة",
+        "operator": "kasralainy hospital outpatient clinics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2280885,
+          30.0317355
+        ]
+      },
+      "id": "node/12952409490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952409491",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "rheumatology",
+        "name": "عيادة الروماتزم",
+        "operator": "kasralainy hospital outpatient clinics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2277924,
+          30.0318302
+        ]
+      },
+      "id": "node/12952409491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952409492",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "neurology",
+        "name": "عيادة مخ وأعصاب والصدر",
+        "name:ar": "عيادة مخ وأعصاب والصدر",
+        "operator": "عيادة المرضى الخارجيين بمستشفى جامعة القاهرة",
+        "operator:ar": "عيادة المرضى الخارجيين بمستشفى جامعة القاهرة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2283203,
+          30.0321163
+        ]
+      },
+      "id": "node/12952409492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952409493",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "physiotherapy",
+        "name": "عيادة العلاج الطبيعى",
+        "operator": "Kasralainy hospital outpatient clinics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2280005,
+          30.0322389
+        ]
+      },
+      "id": "node/12952409493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952409494",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "audiology",
+        "name": "عيادة السمعيات",
+        "operator": "kasralainy hospital outpatient clinics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2282452,
+          30.0316704
+        ]
+      },
+      "id": "node/12952409494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952409495",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "haematology",
+        "name": "عيادة أمراض الدم",
+        "operator": "kasralainy hospital outpatient clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2284404,
+          30.0323652
+        ]
+      },
+      "id": "node/12952409495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952409496",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dermatology_laser",
+        "name": "ليزر الجلدية",
+        "operator": "kasralainy hospital outpatient clinics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2282301,
+          30.032434
+        ]
+      },
+      "id": "node/12952409496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952435106",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "ophthalmology_laser",
+        "name": "ليزر الرمد",
+        "operator": "kasralainy hospital outpatient clinics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2286979,
+          30.0315237
+        ]
+      },
+      "id": "node/12952435106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12952440615",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "family_medicine",
+        "name": "مبنى بنك الدم و عيادة طب الأسرة",
+        "operator": "kasralainy hospital outpatient clinics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2291979,
+          30.0314661
+        ]
+      },
+      "id": "node/12952440615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12959320901",
+        "addr:city": "Giza - Dokki",
+        "addr:housenumber": "7",
+        "addr:street": "Muhammad El-Ghazali",
+        "amenity": "hospital",
+        "internet_access": "no",
+        "name": "Dar El Oyun Hospitals",
+        "opening_hours": "9 am - 10 pm except Friday 3 - 8:30 pm",
+        "phone": "19978",
+        "website": "https://dareloyoun.org/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2050636,
+          30.0385996
+        ]
+      },
+      "id": "node/12959320901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13167384000",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى كابيتال كير",
+        "name:ar": "مستشفى كابيتال كير",
+        "name:en": "Capital Care Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9831511,
+          29.983664
+        ]
+      },
+      "id": "node/13167384000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13167398939",
+        "amenity": "hospital",
+        "check_date": "2025-10-14",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "orthopaedics;neurology;neurosurgery",
+        "name": "مستشفى نيوراسبتاليا",
+        "name:ar": "مستشفى نيوراسبتاليا",
+        "name:en": "Neuro Espetalia Hospital",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9835779,
+          29.9840365
+        ]
+      },
+      "id": "node/13167398939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13169325310",
+        "amenity": "hospital",
+        "check_date": "2025-10-14",
+        "healthcare": "hospital",
+        "healthcare:speciality": "geriatrics",
+        "name": "مستشفى فوقية",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9840008,
+          29.984212
+        ]
+      },
+      "id": "node/13169325310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13177651405",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1984587,
+          30.0091224
+        ]
+      },
+      "id": "node/13177651405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13327722417",
+        "amenity": "hospital",
+        "check_date": "2025-11-24",
+        "healthcare": "hospital",
+        "name": "مستشفى الجارم"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2531683,
+          29.95673
+        ]
+      },
+      "id": "node/13327722417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13333741524",
+        "amenity": "hospital",
+        "check_date": "2026-01-29",
+        "email": "Marketing_team@almehwarhospital.net",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "orthopaedics;surgery;cardiothoracic_surgery;intensive;physiotherapy;emergency",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "AlMehwar Guest",
+        "name": "مستشفى المحور",
+        "name:ar": "مستشفى المحور",
+        "name:en": "Mehwar Hospital",
+        "opening_hours": "24/7",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "15626; +20 10 50049729",
+        "website": "https://almehwarhospital.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9963025,
+          30.0092376
+        ]
+      },
+      "id": "node/13333741524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13337095902",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Shorouk Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.147942,
+          29.9785986
+        ]
+      },
+      "id": "node/13337095902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13419397901",
+        "amenity": "hospital",
+        "name": "مستشفى السادات التخصصي",
+        "name:en": "Sadat Specialized Hospital",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5057936,
+          30.3692667
+        ]
+      },
+      "id": "node/13419397901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13463043998",
+        "addr:street": "1 ش الورشه ناصية ش الخصوص العمومي عمارة البرج الدور الثالث",
+        "amenity": "hospital",
+        "description": "استشاري أول الجلدية والتجميل",
+        "name": "د. حنان نعيم",
+        "phone": "01018428778"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3157684,
+          30.1628074
+        ]
+      },
+      "id": "node/13463043998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13566406801",
+        "addr:street": "شارع عمر بن عبد العزيز",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى السادات التخصصي",
+        "name:en": "Sadat Specialized Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5057935,
+          30.369251
+        ]
+      },
+      "id": "node/13566406801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13593146701",
+        "amenity": "hospital",
+        "name": "مستشفى النصر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2776803,
+          31.2678964
+        ]
+      },
+      "id": "node/13593146701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13593159801",
+        "amenity": "hospital",
+        "name": "ال سليمان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.292383,
+          31.269511
+        ]
+      },
+      "id": "node/13593159801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13620461601",
+        "addr:street": "شارع حافظ بدوى",
+        "amenity": "hospital",
+        "name": "مستشفى كفر الشيخ العام"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9430251,
+          31.1163182
+        ]
+      },
+      "id": "node/13620461601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13651155552",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفي الشاملة الجديدة"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3131299,
+          30.3151472
+        ]
+      },
+      "id": "node/13651155552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13673218385",
+        "addr:country": "EG",
+        "addr:district": "الدقى",
+        "addr:district:en": "Al Doqi",
+        "addr:housenumber": "30",
+        "addr:postcode": "12624",
+        "addr:province": "الجيزه",
+        "addr:province:en": "Giza",
+        "addr:street": "شارع احمد الشاطورى",
+        "addr:street:en": "Ahmed Al Shatoury Street",
+        "addr:subdistrict": "داير الناحيه",
+        "addr:subdistrict:en": "Dayer Al Naheya",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "cardiology;vascular_surgery;neurology;pulmonology;hepatology;nephrology",
+        "name": "مركز مصر للقلب والقسطرة و الرعاية المركزة",
+        "name:ar": "مركز مصر للقلب والقسطرة و الرعاية المركزة",
+        "name:en": "Egypt Health Center",
+        "opening_hours": "24/7",
+        "phone": "+2 02 37488556;+20 10 3330 4332"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2117988,
+          30.0337191
+        ]
+      },
+      "id": "node/13673218385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13732205305",
+        "amenity": "hospital",
+        "name": "مركز بدر الطبي"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7009632,
+          30.1501218
+        ]
+      },
+      "id": "node/13732205305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13901950594",
+        "amenity": "hospital",
+        "check_date": "2026-06-01",
+        "email": "reception@almashfa.com.eg",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "مستشفى المشفى",
+        "name:ar": "مستشفى المشفى",
+        "name:en": "Al Mashfa Hospital",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+20 554400922; +20 10 06422220; +20 10 00083561; +20 12 00000603",
+        "website": "https://almashfa.com.eg/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6553532,
+          30.1982578
+        ]
+      },
+      "id": "node/13901950594"
+    }
+  ]
+}

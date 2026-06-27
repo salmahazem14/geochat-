@@ -1,0 +1,343 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-02T14:44:30Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17091862",
+        "amenity": "university",
+        "name": "جامعة المنصورة",
+        "name:ar": "جامعة المنصورة",
+        "name:en": "Mansoura University",
+        "type": "multipolygon",
+        "website": "https://www.mans.edu.eg/",
+        "wikipedia": "en:Mansoura University",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3590577,
+          31.0407728
+        ]
+      },
+      "id": "relation/17091862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94087086",
+        "amenity": "university",
+        "name": "جامعة كفر الشيخ",
+        "name:ar": "جامعة كفر الشيخ",
+        "name:en": "Kafr El Sheikh University",
+        "wikidata": "Q4115998",
+        "wikimedia_commons": "Category:Kafr El-Sheikh University",
+        "wikipedia": "en:Kafr El Sheikh University",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9500501,
+          31.0983918
+        ]
+      },
+      "id": "way/94087086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94123323",
+        "amenity": "university",
+        "name": "جامعة الزقازيق",
+        "name:ar": "جامعة الزقازيق",
+        "name:en": "Zagazig University",
+        "wikidata": "Q1078474",
+        "wikimedia_commons": "Category:Zagazig University",
+        "wikipedia": "en:Zagazig University",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4819066,
+          30.5884746
+        ]
+      },
+      "id": "way/94123323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94129733",
+        "amenity": "university",
+        "name": "كلية التجارة - جامعة طنطا",
+        "name:ar": "كلية التجارة - جامعة طنطا",
+        "name:en": "Tanta University - Faculty of Commerce",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0026971,
+          30.7986899
+        ]
+      },
+      "id": "way/94129733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94129784",
+        "amenity": "university",
+        "name": "جامعة طنطا",
+        "name:ar": "جامعة طنطا",
+        "name:en": "Tanta University",
+        "wikidata": "Q2917699",
+        "wikimedia_commons": "Category:Tanta University",
+        "wikipedia": "en:Tanta University",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9924105,
+          30.8001439
+        ]
+      },
+      "id": "way/94129784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94172937",
+        "amenity": "university",
+        "name": "جامعة المنوفية",
+        "name:ar": "جامعة المنوفية",
+        "name:en": "Minufiya University",
+        "wikipedia": "en:Minufiya University",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0128241,
+          30.5766709
+        ]
+      },
+      "id": "way/94172937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94172954",
+        "amenity": "university",
+        "name": "جامعة المنوفية",
+        "name:ar": "جامعة المنوفية",
+        "name:en": "Minufiya University",
+        "wikipedia": "en:Minufiya University",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0076621,
+          30.5746016
+        ]
+      },
+      "id": "way/94172954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95827925",
+        "amenity": "university",
+        "name": "Delta University and Language Schools",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3896657,
+          31.0713539
+        ]
+      },
+      "id": "way/95827925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306855289",
+        "amenity": "university",
+        "name": "معهد مصر العالى للهندسة والتكنولوجيا - السلاب",
+        "name:ar": "معهد مصر العالى للهندسة والتكنولوجيا - السلاب",
+        "name:en": "MISR Engineering and Technology - El Sallab",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3785827,
+          31.016003
+        ]
+      },
+      "id": "way/306855289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/770245006",
+        "amenity": "university",
+        "name": "جامعة المنوفية",
+        "name:ar": "جامعة المنوفية",
+        "name:en": "Menoufiya University",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0130618,
+          30.5652755
+        ]
+      },
+      "id": "way/770245006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/771303417",
+        "amenity": "university",
+        "name": "جامعة بنها",
+        "name:ar": "جامعة بنها",
+        "name:en": "Banha University",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.196159,
+          30.4760479
+        ]
+      },
+      "id": "way/771303417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1282769542",
+        "addr:street": "طريق القاهرة الاسكندرية الزراعي- الكيلو 70",
+        "amenity": "university",
+        "internet_access": "yes",
+        "name": "Menoufia National University - جامعة المنوفية الاهلية",
+        "operator": "جامعة المنوفية الاهلية",
+        "operator:type": "government",
+        "website": "https://mnu.menofia.education/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1095422,
+          30.6112078
+        ]
+      },
+      "id": "way/1282769542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1410165021",
+        "amenity": "university",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Minya al-Qamh university",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3649755,
+          30.5157683
+        ]
+      },
+      "id": "way/1410165021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1450083913",
+        "amenity": "university",
+        "education": "university",
+        "name": "كلية تربية",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0154329,
+          30.5562043
+        ]
+      },
+      "id": "way/1450083913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1450083914",
+        "amenity": "university",
+        "education": "university",
+        "name": "كلية تربية",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0147285,
+          30.5561974
+        ]
+      },
+      "id": "way/1450083914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1450083915",
+        "amenity": "university",
+        "education": "university",
+        "name": "كلية الاقتصاد المنزلي",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0180953,
+          30.5567127
+        ]
+      },
+      "id": "way/1450083915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1450083917",
+        "amenity": "university",
+        "education": "university",
+        "name": "كلية التربية الرياضية",
+        "name:en": "Faculty of Physical Education",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0209165,
+          30.5582222
+        ]
+      },
+      "id": "way/1450083917"
+    }
+  ]
+}
